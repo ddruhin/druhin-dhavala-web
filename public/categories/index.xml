@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perspective</title>
+      <link>http://localhost:1313/categories/perspective/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/perspective/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Governance</title>
+      <link>http://localhost:1313/categories/ai-governance/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ai-governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Platform Engineering</title>
+      <link>http://localhost:1313/categories/platform-engineering/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/platform-engineering/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

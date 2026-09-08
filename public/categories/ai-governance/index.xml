@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Governance on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/categories/ai-governance/</link>
+    <description>Recent content in AI Governance on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ai-governance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Peak AI Economics: The Year 4–5 Collapse</title>
+      <link>http://localhost:1313/ai-governance/post-peak-ai-economics/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/post-peak-ai-economics/</guid>
+      <description>AI ROI curves flatten sharply by Year 4–5 as front-loaded gains meet persistent operating costs.</description>
+    </item>
+    <item>
+      <title>Enterprise AI Failure Pattern: Why 95% Will Collapse</title>
+      <link>http://localhost:1313/ai-governance/enterprise-ai-failure-pattern-why-95-will-collapse/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/enterprise-ai-failure-pattern-why-95-will-collapse/</guid>
+      <description>AI will fail in 95%&#43; of enterprises — not because AI is immature, but because the enterprise is.</description>
+    </item>
+    <item>
+      <title>RAG Data Integrity Model: Hallucinations Are Architecture Failures</title>
+      <link>http://localhost:1313/ai-governance/rag-hallucination-data-problem/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/rag-hallucination-data-problem/</guid>
+      <description>Most enterprise hallucination issues aren&amp;#39;t model problems — they&amp;#39;re data architecture problems wearing a GenAI mask.</description>
+    </item>
+    <item>
+      <title>The AI Gateway: Governance as Enterprise Control Plane</title>
+      <link>http://localhost:1313/ai-governance/ai-gateway-control-plane/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/ai-gateway-control-plane/</guid>
+      <description>AI governance isn&amp;#39;t a compliance checklist — it&amp;#39;s the architecture. Why every enterprise AI interaction must pass through a governed API layer before it&amp;#39;s too late to retrofit.</description>
+    </item>
+  </channel>
+</rss>

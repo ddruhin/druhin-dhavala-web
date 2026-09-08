@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Hype Cycle on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/frameworks/ai-hype-cycle/</link>
+    <description>Recent content in AI Hype Cycle on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/frameworks/ai-hype-cycle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Hype Cycle: The Architectural Reality Beneath the Optimism</title>
+      <link>http://localhost:1313/ai-governance/ai-hype-cycle-the-architectural-reality-beneath-the-optimism/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/ai-hype-cycle-the-architectural-reality-beneath-the-optimism/</guid>
+      <description>AI feels unstoppable — but so did the metaverse, blockchain, NFTs, IoT, and big data.</description>
+    </item>
+  </channel>
+</rss>

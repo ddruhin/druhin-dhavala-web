@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Human Cognition on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/tags/human-cognition/</link>
+    <description>Recent content in Human Cognition on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/human-cognition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI &amp; Humanity: The Point of No Return</title>
+      <link>http://localhost:1313/perspective/ai-humanity-the-point-of-no-return/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/perspective/ai-humanity-the-point-of-no-return/</guid>
+      <description>AI is a humanity-altering event — not just a technology shift. The cognitive debt may be irreversible.</description>
+    </item>
+  </channel>
+</rss>

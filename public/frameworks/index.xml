@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frameworks on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/frameworks/</link>
+    <description>Recent content in Frameworks on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/frameworks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Influencer Authenticity</title>
+      <link>http://localhost:1313/frameworks/ai-influencer-authenticity/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/ai-influencer-authenticity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post-Peak AI Economics</title>
+      <link>http://localhost:1313/frameworks/post-peak-ai-economics/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/post-peak-ai-economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human-AI Trajectory</title>
+      <link>http://localhost:1313/frameworks/human-ai-trajectory/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/human-ai-trajectory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise AI Failure Pattern</title>
+      <link>http://localhost:1313/frameworks/enterprise-ai-failure-pattern/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/enterprise-ai-failure-pattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Hype Cycle</title>
+      <link>http://localhost:1313/frameworks/ai-hype-cycle/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/ai-hype-cycle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG Data Integrity Model</title>
+      <link>http://localhost:1313/frameworks/rag-data-integrity-model/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/rag-data-integrity-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Gateway Modernization</title>
+      <link>http://localhost:1313/frameworks/api-gateway-modernization/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/api-gateway-modernization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Gateway Control Plane</title>
+      <link>http://localhost:1313/frameworks/ai-gateway-control-plane/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/frameworks/ai-gateway-control-plane/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

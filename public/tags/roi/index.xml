@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ROI on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/tags/roi/</link>
+    <description>Recent content in ROI on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/roi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Peak AI Economics: The Year 4–5 Collapse</title>
+      <link>http://localhost:1313/ai-governance/post-peak-ai-economics/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/post-peak-ai-economics/</guid>
+      <description>AI ROI curves flatten sharply by Year 4–5 as front-loaded gains meet persistent operating costs.</description>
+    </item>
+  </channel>
+</rss>

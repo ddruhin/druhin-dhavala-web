@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vector Databases on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</title>
+    <link>http://localhost:1313/tags/vector-databases/</link>
+    <description>Recent content in Vector Databases on Druhin Dhavala — Enterprise AI Governance &amp; Platform Architecture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vector-databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAG Data Integrity Model: Hallucinations Are Architecture Failures</title>
+      <link>http://localhost:1313/ai-governance/rag-hallucination-data-problem/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-governance/rag-hallucination-data-problem/</guid>
+      <description>Most enterprise hallucination issues aren&amp;#39;t model problems — they&amp;#39;re data architecture problems wearing a GenAI mask.</description>
+    </item>
+  </channel>
+</rss>

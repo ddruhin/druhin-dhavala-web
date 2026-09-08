@@ -1,0 +1,74 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+  author = "Druhin Dhavala"
+  description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
+  keywords = ["AI governance", "enterprise AI", "RAG", "API gateway", "platform engineering", "AI strategy"]
+
+[menu]
+  [[menu.main]]
+    name = "AI Governance"
+    url = "/ai-governance/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Platform Engineering"
+    url = "/platform-engineering/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Perspective"
+    url = "/perspective/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+# Homepage profile card (replaces post-list homepage)
+[params.homeInfoParams]
+  Title = "Enterprise AI Governance & Platform Architecture"
+  Content = "AI governance is not a compliance checklist. It is the architecture itself. I write about what's coming before it becomes obvious — built on a decade of platform engineering scars."
+
+# Social icons in header
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/ddruhin"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/druhin-dhavala/"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:ddruhin@yahoo.com"
+
+[permalinks]
+  ai-governance = "/ai-governance/:slug/"
+  platform-engineering = "/platform-engineering/:slug/"
+  perspective = "/perspective/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  framework = "frameworks"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params.footer]
+  enable = true
+  text = "© 2026 Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
