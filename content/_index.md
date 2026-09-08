@@ -1,5 +1,6 @@
 ---
 title: "Enterprise AI Governance & Platform Architecture"
+type: "page"
 ---
 
 ## The Thesis

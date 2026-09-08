@@ -37,23 +37,6 @@ enableRobotsTXT = true
     weight = 5
 
 # Homepage profile card (replaces post-list homepage)
-[params.homeInfoParams]
-  Title = "Enterprise AI Governance & Platform Architecture"
-  Content = "AI governance is not a compliance checklist. It is the architecture itself. I write about what's coming before it becomes obvious — built on a decade of platform engineering scars."
-
-# Social icons in header
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/ddruhin"
-
-[[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/druhin-dhavala/"
-
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:ddruhin@yahoo.com"
-
 [permalinks]
   ai-governance = "/ai-governance/:slug/"
   platform-engineering = "/platform-engineering/:slug/"
