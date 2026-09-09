@@ -1,6 +1,6 @@
 ---
 title: "The AI Gateway: Governance as Enterprise Control Plane"
-slug: "the-ai-gateway-governance-as-enterprise-control-plane"
+slug: "ai-gateway-control-plane"
 date: 2026-03-24
 lastmod: 2026-09-07
 draft: false
