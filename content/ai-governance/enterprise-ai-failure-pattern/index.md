@@ -1,5 +1,6 @@
 ---
 title: "Enterprise AI Failure Pattern: Why 95% Will Collapse"
+slug: "enterprise-ai-failure-pattern"
 date: 2026-07-10
 
 lastmod: 2026-09-07

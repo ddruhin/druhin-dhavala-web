@@ -1,5 +1,6 @@
 ---
 title: "AI Hype Cycle: The Architectural Reality Beneath the Optimism"
+slug: "ai-hype-cycle"
 date: 2026-05-29
 lastmod: 2026-09-07
 draft: false

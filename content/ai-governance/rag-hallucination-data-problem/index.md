@@ -1,5 +1,6 @@
 ---
 title: "RAG Data Integrity Model: Hallucinations Are Architecture Failures"
+slug: "rag-hallucination-data-problem"
 date: 2026-04-22
 lastmod: 2026-09-07
 draft: false

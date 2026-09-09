@@ -1,5 +1,6 @@
 ---
 title: "Post-Peak AI Economics: The Year 4–5 Collapse"
+slug: "post-peak-ai-economics"
 date: 2026-08-01
 lastmod: 2026-09-07
 draft: false
