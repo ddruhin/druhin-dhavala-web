@@ -7,7 +7,7 @@ draft: false
 description: "AI feels unstoppable — but so did the metaverse, blockchain, NFTs, IoT, and big data."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/ai-hype-cycle/"
 
-categories: ["Perspective"]
+categories: ["AI Governance"]
 tags: ["AI hype", "enterprise architecture", "systems thinking"]
 frameworks: ["AI Hype Cycle"]
 
@@ -17,8 +17,6 @@ author: "Druhin Dhavala"
 firstPublished: "2026-05-29"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hype-cycle"
 ---
-
-**Quoted line:** “AI feels unstoppable right now. But didn’t we say the same thing about the metaverse… blockchain… NFTs… IoT… big data…?”
 
 🛑 AI Hype Cycle
 A Timestamped Note of Caution: Learning from the Ghosts of Tech Hype Cycles
@@ -71,15 +69,3 @@ It just means the behavior around AI looks very familiar.
 For the architects, delivery leads, and strategists:
 How is your organization balancing the pressure to innovate with the realities of long‑term architectural stability?
 
-#EnterpriseArchitecture #SystemsThinking #TechnologyStrategy #ArtificialIntelligence #CloudInfrastructure #TechCycles #BusinessStrategy
-
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)

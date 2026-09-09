@@ -18,8 +18,6 @@ firstPublished: "2026-03-27"
 originalPublication: "https://druhindhavala.substack.com/p/from-on-prem-greenfields-enterprise"
 ---
 
-**Quoted line:** “A gateway is only as strong as the infrastructure beneath it and the automation around it.”
-
 From On-Prem Greenfields ➡️ Enterprise Modernization: 10-Year API Gateway Lessons
 My API Gateway journey
 
@@ -74,16 +72,3 @@ I’ve shared a rough blueprint + evaluation framework on GitHub for anyone expl
 
 What’s been your toughest API Gateway migration challenge — and how did you solve it?
 
-#APIManagement #Kubernetes #Apigee #Kong #Gravitee #Tyk #WSO2 #AWS #KubeVirt #OpenShift #RHOS #CloudArchitecture #PlatformEngineering #MigrationStrategy #DevOps #APIModernization
-
-
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)

@@ -18,8 +18,6 @@ firstPublished: "2026-07-26"
 originalPublication: "https://druhindhavala.substack.com/p/ai-and-human-race-point-of-no-return"
 ---
 
-**Quoted line:** “This is a humanity-altering event that never took place in the past thousands of years.”
-
 AI and Human Race - Point of NO return
 ***This post is NOT curated NOR written by AI, for a reason***
 
@@ -69,13 +67,3 @@ All the "Zombie apocalypse" movies we watched for decades thinking its comedy, W
 
 This Cognitive Debt cannot be repaid nor recovered from. As humanity, we all have acquired ONE COMMON Skill - We all have become PROMPT engineers - while losing every other.
 
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)

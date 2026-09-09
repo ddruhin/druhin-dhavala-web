@@ -1,6 +1,5 @@
 ---
 title: "The AI Gateway: Governance as Enterprise Control Plane"
-slug: "ai-gateway-control-plane"
 date: 2026-03-24
 lastmod: 2026-09-07
 draft: false
@@ -19,11 +18,7 @@ firstPublished: "2026-03-24"
 originalPublication: "https://druhindhavala.substack.com/p/the-ai-gateway-governance-as-enterprise"
 ---
 
-**Quoted line:** “AI systems will not offer the same runway that API ecosystems did.”
 
-**Summary:**  
-Your article argues that API governance debt was survivable, but AI governance debt is not.  
-You explain why governance must be Day 1 architecture, not a retrofit, and introduce the  
 AI Gateway as the enterprise control plane for all intelligence transactions.
 
 After more than a decade leading enterprise API platforms, I have watched the same mistake play out across organizations of every size and maturity level: governance gets treated as a later-stage concern, deferred until the pain of operating without it becomes undeniable.
@@ -135,17 +130,3 @@ The window is open. It will not stay open indefinitely.
 I have spent the last decade building and scaling enterprise API platforms across organizations managing billions in annual transaction volume. The lessons from that work — on governance architecture, lifecycle management, and the true cost of deferred structural decisions — are precisely what I am now focused on applying to enterprise AI strategy.
 
 If this perspective resonates, I welcome the connection and the conversation.
-
-#AIGovernance #AIGateway #EnterpriseAI #LLM #RAG #APIStrategy #GovernanceControlPlane #PlatformEngineering #ResponsibleAI #MLOps #Architecture #DigitalTransformation
-
-
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)

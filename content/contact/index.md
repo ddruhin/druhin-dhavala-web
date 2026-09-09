@@ -1,9 +1,13 @@
 ---
 title: "Contact"
+date: 2026-09-07
+layout: "page"
+description: "Contact Druhin Dhavala — enterprise AI governance, platform architecture, and engineering leadership."
+keywords: ["contact", "Druhin Dhavala", "AI governance", "platform engineering"]
 ---
 
-You can reach me here:
+**[LinkedIn](https://www.linkedin.com/in/druhin-dhavala/)** — Professional inquiries and connection
 
-- **[LinkedIn](https://www.linkedin.com/in/druhin-dhavala/)**   
-- **[Substack](https://druhindhavala.substack.com)**   
-- **Email:** ddruhin yah00 DOT com  
+**[Substack](https://druhindhavala.substack.com)** — Subscribe for new articles
+
+**Email:** Available via LinkedIn

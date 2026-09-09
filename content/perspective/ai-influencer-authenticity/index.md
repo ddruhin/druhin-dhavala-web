@@ -18,8 +18,6 @@ firstPublished: "2026-08-31"
 originalPublication: "https://druhindhavala.substack.com/p/ai-influencer"
 ---
 
-**Quoted line:** “AI has turned everyone into an influencer.”
-
 AI Influencer
 Everyone on the planet is now an AI Influencer - easy peasy
 
@@ -61,15 +59,4 @@ Use “personal/consumer” AI to improve and find ways to solve issues that too
 I feel the vacuum AI will leave, once this chain of thought/writing is exhausted and it will, is like a tech-debt that can never be repaid by human race.
 
 PS: NO AI was used to write/curate this post. We as a human race have come to this, where i have to use this disclaimer explicitly 😊
-
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)
 

@@ -1,6 +1,5 @@
 ---
 title: "RAG Data Integrity Model: Hallucinations Are Architecture Failures"
-slug: "rag-hallucination-data-problem"
 date: 2026-04-22
 lastmod: 2026-09-07
 draft: false
@@ -18,8 +17,6 @@ author: "Druhin Dhavala"
 firstPublished: "2026-04-22"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hallucinations"
 ---
-
-**Quoted line:** “Most enterprise ‘hallucination’ issues I’m diagnosing aren’t model problems. They’re data architecture problems wearing a GenAI mask.”
 
 AI Hallucinations
 
@@ -62,16 +59,3 @@ Ignore it → you scale the problem.
 
 Curious how others are seeing this:
 What’s been harder in your org — fixing the data, or aligning teams around the fact that it’s the real issue?
-
-#DataArchitecture #RAG #DataGovernance #EnterpriseAI #EventDrivenArchitecture
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)
-

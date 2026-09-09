@@ -19,8 +19,6 @@ firstPublished: "2026-07-10"
 originalPublication: "https://druhindhavala.substack.com/p/next-biggest-opportunity-isnt-ai"
 ---
 
-**Quoted line:** “AI will fail in 95%+ of enterprises — not because AI is immature, but because the enterprise is.”
-
 Next biggest opportunity isn’t AI
 It’s surviving the tech‑debt bomb AI is about to create.
 
@@ -58,13 +56,3 @@ Somebody needs to start thinking.
 
 I’m sharing this now as a marker in time. The signs are visible, but most are overlooking them — or not seeing them at all.
 Years from now, this will read like an early alarm that should have been taken seriously.
-
-**About me:**
-I’m Druhin Dhavala. I’ve built three greenfield platforms and led modernization journeys from legacy monoliths to governed API ecosystems. I carry the scars of what happens when organizations adopt new technology without guardrails — and I’m seeing the same patterns repeat as the world rushes into AI.
-
-I’m writing here so those mistakes don’t get repeated at global scale.
-If you’re building AI systems, platforms, or governance foundations, my goal is simple: help you avoid the catastrophes I’ve already lived through — before they become your reality.
-
-This is my attempt to share what’s coming, early, so you can build with clarity instead of chaos.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/druhin-dhavala/), [Git](https://github.com/ddruhin)
