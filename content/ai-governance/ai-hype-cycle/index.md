@@ -5,7 +5,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI feels unstoppable — but so did the metaverse, blockchain, NFTs, IoT, and big data."
-canonicalURL: "https://yourdomain.com/ai-governance/ai-hype-cycle/"
+canonicalURL: "https://www.druhindhavala.com/ai-governance/ai-hype-cycle/"
 
 categories: ["Perspective"]
 tags: ["AI hype", "enterprise architecture", "systems thinking"]

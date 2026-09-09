@@ -6,7 +6,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI ROI curves flatten sharply by Year 4–5 as front-loaded gains meet persistent operating costs."
-canonicalURL: "https://yourdomain.com/ai-governance/post-peak-ai-economics/"
+canonicalURL: "https://www.druhindhavala.com/ai-governance/post-peak-ai-economics/"
 
 categories: ["AI Governance"]
 tags: ["AI economics", "ROI", "enterprise AI", "cost governance"]

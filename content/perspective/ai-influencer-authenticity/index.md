@@ -5,7 +5,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI has turned everyone into an influencer — but authenticity still comes from scars earned in the trenches."
-canonicalURL: "https://yourdomain.com/perspective/ai-influencer-authenticity/"
+canonicalURL: "https://www.druhindhavala.com/perspective/ai-influencer-authenticity/"
 
 categories: ["Perspective"]
 tags: ["influencer", "AI writing", "authenticity"]

@@ -6,7 +6,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "Most enterprise hallucination issues aren't model problems — they're data architecture problems wearing a GenAI mask."
-canonicalURL: "https://yourdomain.com/ai-governance/rag-hallucination-data-problem/"
+canonicalURL: "https://www.druhindhavala.com/ai-governance/rag-hallucination-data-problem/"
 
 categories: ["AI Governance"]
 tags: ["RAG", "data architecture", "LLM", "vector databases", "enterprise AI"]

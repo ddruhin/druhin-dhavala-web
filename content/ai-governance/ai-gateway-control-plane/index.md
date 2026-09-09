@@ -6,7 +6,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI governance isn't a compliance checklist — it's the architecture. Why every enterprise AI interaction must pass through a governed API layer before it's too late to retrofit."
-canonicalURL: "https://yourdomain.com/ai-governance/ai-gateway-control-plane/"
+canonicalURL: "https://www.druhindhavala.com/ai-governance/ai-gateway-control-plane/"
 
 categories: ["AI Governance"]
 tags: ["AI gateway", "LLM", "RAG", "API strategy", "governance", "enterprise AI"]

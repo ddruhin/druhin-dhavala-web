@@ -5,7 +5,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI is a humanity-altering event — not just a technology shift. The cognitive debt may be irreversible."
-canonicalURL: "https://yourdomain.com/perspective/ai-human-race-point-of-no-return/"
+canonicalURL: "https://www.druhindhavala.com/perspective/ai-human-race-point-of-no-return/"
 
 categories: ["Perspective"]
 tags: ["human cognition", "AI", "neuroscience", "society"]

@@ -5,7 +5,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "A decade of API gateway migrations — Apigee, Kong, Gravitee, Tyk, WSO2, AWS — and the scars that shaped modern platform engineering."
-canonicalURL: "https://yourdomain.com/platform-engineering/api-gateway-modernization/"
+canonicalURL: "https://www.druhindhavala.com/platform-engineering/api-gateway-modernization/"
 
 categories: ["Platform Engineering"]
 tags: ["API gateway", "Kubernetes", "Apigee", "modernization"]

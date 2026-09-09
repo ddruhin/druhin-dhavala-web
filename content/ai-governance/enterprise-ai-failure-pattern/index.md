@@ -6,7 +6,7 @@ lastmod: 2026-09-07
 draft: false
 
 description: "AI will fail in 95%+ of enterprises — not because AI is immature, but because the enterprise is."
-canonicalURL: "https://yourdomain.com/ai-governance/enterprise-ai-failure-pattern/"
+canonicalURL: "https://www.druhindhavala.com/ai-governance/enterprise-ai-failure-pattern/"
 
 categories: ["AI Governance"]
 tags: ["enterprise AI", "tech debt", "architecture", "platform engineering"]
