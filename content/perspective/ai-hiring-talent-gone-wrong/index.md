@@ -1,7 +1,7 @@
 ---
 title: "We're Hiring AI Talent Nobody Knows How to Evaluate"
-date: 2026-08-31
-lastmod: 2026-09-07
+date: 2026-09-09
+lastmod: 2026-09-09
 draft: false
 
 description: "A blunt breakdown of the corporate AI hiring crisis: undefined roles, unmeasurable outcomes, nonexistent benchmarks, and FOMO‑driven decisions that guarantee failure before day one."
