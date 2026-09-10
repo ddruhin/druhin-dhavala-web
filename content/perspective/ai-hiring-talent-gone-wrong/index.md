@@ -87,8 +87,11 @@ The irony is thick: we're deploying technology that demands precision, data hygi
 **The Answer Isn't Sexy**
 Here's what nobody wants to hear:
 
-You don't do AI because someone else is doing it.
-You don't do AI because Gartner published a quadrant that made you nervous. You don't do AI because your board asked about it and you need a slide.
+- You don't do AI because someone else is doing it.
+- You don't do AI because Gartner published a quadrant that made you nervous. 
+- You don't do AI because your board asked about it and you need a slide.
+
+
 You go back to basics:
 
 Define the problem with enough specificity that someone could solve it without AI
