@@ -19,7 +19,7 @@ originalPublication: "https://druhindhavala.substack.com/p/ai-influencer"
 **We're Hiring AI Talent Nobody Knows How to Evaluate, for Roles Nobody Defined, to Solve Problems Nobody Quantified**
 And we're calling it "strategy."
 
-Here's a question nobody in the C-suite wants to answer out loud:
+Here's a question nobody in the leadership wants to answer out loud:
 
 **If AI itself is barely out of diapers, how exactly do you — the hiring manager — know you're hiring the right person?**
 
@@ -40,7 +40,7 @@ Hiring people with no verifiable track record in a domain where track records do
 Into roles with no clear definition because the org chart demanded a box
 To achieve outcomes nobody has quantified beyond "we need AI"
 And expecting delivery because the press release already went out
-The poor bastard who takes the job? They're set up to fail before their first day. And when they do fail — because the mandate was incoherent — the company will blame the hire, not the process that produced the hire.
+The poor guy who takes the job? They're set up to fail before their first day. And when they do fail — because the mandate was incoherent — the company will blame the hire, not the process that produced the hire.
 
 **The Questions Nobody's Asking**
 Before you post that job req, before you call the executive search firm, before you draft the "transformative AI leader" LinkedIn announcement — run these four questions:
