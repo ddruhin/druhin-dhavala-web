@@ -36,10 +36,11 @@ That math apparently no longer applies when the role has "AI" in the title. Sudd
 
 We are **living through a bizarre moment in corporate history** where companies are:
 
-Hiring people with no verifiable track record in a domain where track records don't exist yet
-Into roles with no clear definition because the org chart demanded a box
-To achieve outcomes nobody has quantified beyond "we need AI"
-And expecting delivery because the press release already went out
+- Hiring people with no verifiable track record in a domain where track records don't exist yet
+- Into roles with no clear definition because the org chart demanded a box
+- To achieve outcomes nobody has quantified beyond "we need AI"
+- And expecting delivery because the press release already went out
+
 The poor guy who takes the job? They're set up to fail before their first day. And when they do fail — because the mandate was incoherent — the company will blame the hire, not the process that produced the hire.
 
 **The Questions Nobody's Asking**
@@ -47,38 +48,41 @@ Before you post that job req, before you call the executive search firm, before 
 
 1. Who actually exists that's qualified?
 Not "who looks good on paper." Who has done the thing — end to end, in an enterprise context, with measurable outcomes?
-
 The answer, in 2026: almost nobody. Enterprise AI at scale hasn't completed a full cycle anywhere. Agentic is even newer. The talent pool you're fishing in is, charitably, a few hundred people globally — most of whom aren't leaving their current roles.
 
 So who are you actually interviewing? People who read the same papers you did, built a prototype or two, and interview well. That's not qualification. That's cosplay.
 
+
 2. How do we evaluate this person?
 If you can't define the role, you can't build an evaluation rubric. If you can't build a rubric, you're hiring on vibes.
-
 The current playbook is tragic: use AI to generate interview questions about AI, then expect the candidate to match the AI's answers. You're benchmarking humans against a stochastic parrot and calling it rigor.
 
 What's the alternative? You don't have one — because you skipped question one.
+
 
 3. Why do we even need this person?
 Not "why does the market say we need AI." Why does your business — with your margins, your data maturity, your operational reality — need this person?
 
 If the answer starts with "Gartner says" or "our competitors are doing it," you've already lost. You're not building strategy. You're building a participation trophy.
 
+
 4. What exactly are we solving?
 The most basic question. The one that should precede every dollar spent, every hire made, every project greenlit.
-
 And yet — ask any company mid-AI-hiring-spree what specific business problem they're solving, and watch the room go quiet. You'll get "efficiency gains" and "competitive positioning" and "unlocking value." You won't get a number. You won't get a process. You won't get a before-and-after.
 
 Because they haven't done the work.
 
+
 **The Diagnosis**
 When you run through this maze honestly, the conclusion is uncomfortable:
+
 
 **99% of corporations are running FOMO-based AI programs with zero answers to the most basic questions.**
 
 Due diligence — actual, rigorous, pre-investment scrutiny — has vanished from the corporate equation. Not reduced. Vanished. Replaced by analyst reports, peer pressure, and the terror of looking late to the party.
 
 The irony is thick: we're deploying technology that demands precision, data hygiene, and clear objectives — and we're doing it with the intellectual rigor of a middle school group project.
+
 
 **The Answer Isn't Sexy**
 Here's what nobody wants to hear:
@@ -92,6 +96,7 @@ Determine whether AI is actually the best tool for that problem (it often isn't)
 Map the data readiness, the integration surface, the operational cost, the governance burden
 Then decide if hiring is even the right move — versus buying, partnering, or waiting
 If you can't clear those gates, you don't have an AI strategy. You have an anxiety disorder with a budget.
+
 
 **The Bottom**
 The companies that will win at AI aren't the ones that hired fastest. They're the ones that had the discipline to ask hard questions before writing a single job description.
