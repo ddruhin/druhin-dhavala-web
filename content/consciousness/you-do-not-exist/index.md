@@ -273,4 +273,5 @@ If you find it, I was wrong. If you don't — you just proved it yourself. DIY, 
 ---
 
 *First in a series on consciousness, non-duality, and the architecture of direct experience. No gurus. No belief. Just the test.*
+
 **Disclaimer** *You agree you are reading this at your own risk and any outcomes/after-effects are all on YOU, the reader*
