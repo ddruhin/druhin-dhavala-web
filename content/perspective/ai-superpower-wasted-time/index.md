@@ -1,11 +1,12 @@
 ---
 title: "AI Gave Us Superpowers. Now We're Just Scrolling Faster."
+slug: "ai-gave-us-superpowers"
 date: 2026-09-18
 lastmod: 2026-09-18
 draft: false
 
 description: "AI has turned everyone into an influencer — but authenticity still comes from scars earned in the trenches."
-canonicalURL: "https://yourdomain.com/perspective/ai-influencer-authenticity/"
+canonicalURL: "https://www.druhindhavala.com/perspective/ai-gave-us-superpowers/"
 
 categories: ["Perspective"]
 tags: ["AI", "Productivity", "Attention", "Smartphones", "Time", "Work"]
