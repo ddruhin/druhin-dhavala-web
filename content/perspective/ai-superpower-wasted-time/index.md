@@ -5,7 +5,7 @@ date: 2026-09-18
 lastmod: 2026-09-18
 draft: false
 
-description: "AI has turned everyone into an influencer — but authenticity still comes from scars earned in the trenches."
+description: "AI Gave Us Superpowers. Now We're Just Scrolling Faster. Humanity doesnt know what to do with the Productivity gains."
 canonicalURL: "https://www.druhindhavala.com/perspective/ai-gave-us-superpowers/"
 
 categories: ["Perspective"]
