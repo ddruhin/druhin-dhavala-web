@@ -157,14 +157,18 @@ Here's the hard part. Score your organization 0–5 on each gate:
 - 3: Proactive. The gate exists and fires before the action.
 - 4: Governed. The gate is enforced as architecture, not policy.
 - 5: Adaptive. The gate learns and evolves based on observed patterns.
+
 Add up your scores. Maximum is 25.
+
 
 - 0–5: You're flying blind. Governance is not a concept your organization has encountered.
 - 6–10: You're aware of the problem. You're not solving it yet.
 - 11–15: You're building. Some gates are in place. Others are gaps.
 - 16–20: You're governed. Most gates are enforced as architecture.
 - 21–25: You're adaptive. Your governance evolves with the threat landscape.
+
 Be honest. Most organizations are at 8–12. The ones at 20+ are the ones that started building three years ago — before AI was a board-level conversation.
+
 
 **The 30-Day Plan: How to Start**
 You don't build all five gates at once. You build them in the order that reduces risk fastest.
