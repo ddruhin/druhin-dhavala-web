@@ -151,42 +151,42 @@ What fails without it: Harmful outputs. Brand damage. The kind of incident that 
 The GATES Assessment: Score Your Organization
 Here's the hard part. Score your organization 0–5 on each gate:
 
-0: No capability. The gate doesn't exist.
-1: Ad-hoc. The gate exists in some places, inconsistently.
-2: Reactive. The gate exists but fires after the fact.
-3: Proactive. The gate exists and fires before the action.
-4: Governed. The gate is enforced as architecture, not policy.
-5: Adaptive. The gate learns and evolves based on observed patterns.
+- 0: No capability. The gate doesn't exist.
+- 1: Ad-hoc. The gate exists in some places, inconsistently.
+- 2: Reactive. The gate exists but fires after the fact.
+- 3: Proactive. The gate exists and fires before the action.
+- 4: Governed. The gate is enforced as architecture, not policy.
+- 5: Adaptive. The gate learns and evolves based on observed patterns.
 Add up your scores. Maximum is 25.
 
-0–5: You're flying blind. Governance is not a concept your organization has encountered.
-6–10: You're aware of the problem. You're not solving it yet.
-11–15: You're building. Some gates are in place. Others are gaps.
-16–20: You're governed. Most gates are enforced as architecture.
-21–25: You're adaptive. Your governance evolves with the threat landscape.
+- 0–5: You're flying blind. Governance is not a concept your organization has encountered.
+- 6–10: You're aware of the problem. You're not solving it yet.
+- 11–15: You're building. Some gates are in place. Others are gaps.
+- 16–20: You're governed. Most gates are enforced as architecture.
+- 21–25: You're adaptive. Your governance evolves with the threat landscape.
 Be honest. Most organizations are at 8–12. The ones at 20+ are the ones that started building three years ago — before AI was a board-level conversation.
 
 **The 30-Day Plan: How to Start**
 You don't build all five gates at once. You build them in the order that reduces risk fastest.
 
-Week 1: Secure. This is your quickest win. Deploy a redaction layer in front of your LLM endpoints. Even regex-based detection is better than nothing. You'll immediately reduce your data exfiltration surface.
+- Week 1: Secure. This is your quickest win. Deploy a redaction layer in front of your LLM endpoints. Even regex-based detection is better than nothing. You'll immediately reduce your data exfiltration surface.
 
-Week 2: Trace. You can't govern what you can't see. Stand up structured logging for every AI interaction. Capture prompt, user, model, timestamp, cost. Store immutably. This is your foundation for everything else.
+- Week 2: Trace. You can't govern what you can't see. Stand up structured logging for every AI interaction. Capture prompt, user, model, timestamp, cost. Store immutably. This is your foundation for everything else.
 
-Week 3: Govern. Now that you can see what's happening, start enforcing policy. Build a prompt validation layer. Start with the obvious violations (PII, off-topic, jailbreak patterns) and expand from there.
+- Week 3: Govern. Now that you can see what's happening, start enforcing policy. Build a prompt validation layer. Start with the obvious violations (PII, off-topic, jailbreak patterns) and expand from there.
 
-Week 4: Authenticate + Enforce. These two go together because they both require identity context. Wire up access controls and output filtering. Start with your highest-risk use cases.
+- Week 4: Authenticate + Enforce. These two go together because they both require identity context. Wire up access controls and output filtering. Start with your highest-risk use cases.
 
 By the end of 30 days, you'll have four of the five gates operational. Enforce will be partial — output filtering is hard, and you'll iterate. But you'll have a foundation that most organizations don't have after 30 months.
 
 What I Know, What I Don't Know, and Where AI Experts Come In
 I want to be clear about the boundaries of this article.
 
-What I know: Governance failure modes. The cost of deferred decisions. The patterns that compound when you skip the architecture and ship the policy. I've lived these in API systems for 12+ years. I see them coming for AI.
+- What I know: Governance failure modes. The cost of deferred decisions. The patterns that compound when you skip the architecture and ship the policy. I've lived these in API systems for 12+ years. I see them coming for AI.
 
-What I don't know: How to build a RAG pipeline. How to fine-tune a model. How to implement context-aware redaction at scale. How to detect deepfakes. How to optimize inference costs. These are AI implementation problems, and they require AI implementation expertise.
+- What I don't know: How to build a RAG pipeline. How to fine-tune a model. How to implement context-aware redaction at scale. How to detect deepfakes. How to optimize inference costs. These are AI implementation problems, and they require AI implementation expertise.
 
-Where AI experts come in: GATES is the governance layer. The implementation of each gate — the actual ML models, the detection algorithms, the filtering techniques — that's where AI practitioners earn their keep. This framework tells you what to build. It doesn't tell you how to build it.
+- Where AI experts come in: GATES is the governance layer. The implementation of each gate — the actual ML models, the detection algorithms, the filtering techniques — that's where AI practitioners earn their keep. This framework tells you what to build. It doesn't tell you how to build it.
 
 If you're an AI expert reading this, I hope GATES is useful as a structure to build within. If you're a governance or platform leader reading this, I hope GATES saves you the 2 AM war room I had to learn the hard way.
 
