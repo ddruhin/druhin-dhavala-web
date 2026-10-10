@@ -16,12 +16,6 @@ author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
 ---
 
-![GATES Framework Infographic](GATES-Framework-druhin-dhavala.JPEG)
-
-## GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room
-
----
-
 **GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room**
 I'm not an AI expert. I want to start there because LinkedIn is full of people who sound like AI experts and have never built anything. I'm not that person, and I don't intend to become one.
 
@@ -175,6 +169,10 @@ Add up your scores. Maximum is 25.
 
 Be honest. Most organizations are at 8–12. The ones at 20+ are the ones that started building three years ago — before AI was a board-level conversation.
 
+![GATES Framework Infographic](GATES-Framework-druhin-dhavala.JPEG)
+
+## GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room
+---
 
 **The 30-Day Plan: How to Start**
 You don't build all five gates at once. You build them in the order that reduces risk fastest.
