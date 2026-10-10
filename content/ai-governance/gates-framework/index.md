@@ -1,5 +1,6 @@
 ---
 title: "GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room"
+Slug: "gates-framework"
 date: 2026-10-10
 lastmod: 2026-10-10
 draft: false
