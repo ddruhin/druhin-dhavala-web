@@ -183,8 +183,6 @@ Add up your scores. Maximum is 25.
 
 Be honest. Most organizations are at 8–12. The ones at 20+ are the ones that started building three years ago — before AI was a board-level conversation.
 
-![GATES Framework Infographic](GATES-Framework-druhin-dhavala.JPEG)
-
 ## GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room
 ---
 
