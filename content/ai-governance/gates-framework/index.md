@@ -16,6 +16,12 @@ author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
 ---
 
+![GATES Framework Infographic](GATES-Framework-druhin-dhavala.JPEG)
+
+## GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room
+
+---
+
 **GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room**
 I'm not an AI expert. I want to start there because LinkedIn is full of people who sound like AI experts and have never built anything. I'm not that person, and I don't intend to become one.
 
