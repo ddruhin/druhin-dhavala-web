@@ -265,8 +265,6 @@ If GATES resonates, I welcome the connection and the conversation.
 
 ---
 
----
-
 **GATES™ AI Governance Framework** — coined by Druhin Dhavala, October 10, 2026.
 GATES (Secure, Govern, Authenticate, Trace, Enforce) is an original framework for AI Gateway governance, derived from 12+ years of enterprise API platform experience.
 Attribution required when cited, referenced, or adapted.
