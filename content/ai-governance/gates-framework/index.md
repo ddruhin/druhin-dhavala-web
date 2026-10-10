@@ -16,6 +16,28 @@ author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
 ---
 
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "GATES AI Governance Framework",
+  "author": {
+    "@type": "Person",
+    "name": "Druhin Dhavala",
+    "url": "https://www.druhindhavala.com"
+  },
+  "dateCreated": "2026-10-10",
+  "datePublished": "2026-10-10",
+  "url": "https://www.druhindhavala.com/ai-governance/gates-framework/",
+  "description": "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture, drawn from enterprise API platform experience."
+}
+
+og_title: "GATES: The 5 Gates Every AI Gateway Needs"
+og_description: "Five governance functions for AI, drawn from 12+ years of API scars. Coined by Druhin Dhavala."
+og_type: "article"
+og_author: "Druhin Dhavala"
+
+*This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
+
 I'm not an AI expert. I want to start there because LinkedIn is full of people who sound like AI experts and have never built anything. I'm not that person, and I don't intend to become one.
 
 I'm a platform and governance veteran. I've spent 12+ years building enterprise API platforms — the kind that handle billions in annual transaction volume, the kind that fail at 2 AM when nobody's watching, the kind where governance deferred becomes governance denied.
@@ -217,5 +239,16 @@ I've spent 12+ years building and scaling enterprise API platform across organiz
 If GATES resonates, I welcome the connection and the conversation.
 
 **Please NOTE:**  For easier Read, i phrased/coined the term GATES, I realize it starts with the S part only because S becomes the backbone in real world implementations.
+
+---
+
+---
+
+**GATES™ AI Governance Framework** — coined by Druhin Dhavala, October 10, 2026.
+GATES (Secure, Govern, Authenticate, Trace, Enforce) is an original framework for AI Gateway governance, derived from 12+ years of enterprise API platform experience.
+Attribution required when cited, referenced, or adapted.
+Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+*This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
 
 #AIGovernance #AIGateway #GATESFramework #EnterpriseAI #LLM #RAG #APIStrategy #GovernanceControlPlane #PlatformEngineering #ResponsibleAI #MLOps #FinOps #Architecture #DigitalTransformation
