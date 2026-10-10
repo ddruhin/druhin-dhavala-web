@@ -14,7 +14,6 @@ frameworks: ["GATES Framework"]
 
 author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
----
 
 {
   "@context": "https://schema.org",
@@ -35,6 +34,8 @@ og_title: "GATES: The 5 Gates Every AI Gateway Needs"
 og_description: "Five governance functions for AI, drawn from 12+ years of API scars. Coined by Druhin Dhavala."
 og_type: "article"
 og_author: "Druhin Dhavala"
+
+---
 
 *This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
 
