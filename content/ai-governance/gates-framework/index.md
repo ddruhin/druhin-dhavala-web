@@ -16,7 +16,6 @@ author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
 ---
 
-**GATES: The 5 Gates I Wish Someone Had Built Before My 2 AM War Room**
 I'm not an AI expert. I want to start there because LinkedIn is full of people who sound like AI experts and have never built anything. I'm not that person, and I don't intend to become one.
 
 I'm a platform and governance veteran. I've spent 12+ years building enterprise API platforms — the kind that handle billions in annual transaction volume, the kind that fail at 2 AM when nobody's watching, the kind where governance deferred becomes governance denied.
