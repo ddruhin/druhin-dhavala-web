@@ -21,7 +21,7 @@ og_description: "Five governance functions (Secure, Govern, Authenticate, Trace,
 og_type: "article"
 og_url: "https://www.druhindhavala.com/ai-governance/gates-framework/"
 og_author: "Druhin Dhavala"
-og_image: "https://www.druhindhavala.com/images/gates-infographic.png"
+og_image: "https://www.druhindhavala.com/ai-governance/gates-framework/GATES-Framework-druhin-dhavala.jpeg"
 og_locale: "en_US"
 og_site_name: "Druhin Dhavala"
 
@@ -29,7 +29,7 @@ og_site_name: "Druhin Dhavala"
 twitter_card: "summary_large_image"
 twitter_title: "GATES: The 5 Gates Every AI Gateway Needs"
 twitter_description: "Five governance functions for AI, drawn from 12+ years of API scars. Coined by Druhin Dhavala."
-twitter_image: "https://www.druhindhavala.com/images/gates-infographic.png"
+twitter_image: "https://www.druhindhavala.com/ai-governance/gates-framework/GATES-Framework-druhin-dhavala.jpeg"
 
 # JSON-LD Structured Data (for SEO + AI citation)
 jsonld: |
