@@ -15,27 +15,49 @@ frameworks: ["GATES Framework"]
 author: "Druhin Dhavala"
 firstPublished: "2026-10-10"
 
-{
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": "GATES AI Governance Framework",
-  "author": {
-    "@type": "Person",
-    "name": "Druhin Dhavala",
-    "url": "https://www.druhindhavala.com"
-  },
-  "dateCreated": "2026-10-10",
-  "datePublished": "2026-10-10",
-  "url": "https://www.druhindhavala.com/ai-governance/gates-framework/",
-  "description": "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture, drawn from enterprise API platform experience."
-}
-
+# Open Graph (for social sharing)
 og_title: "GATES: The 5 Gates Every AI Gateway Needs"
-og_description: "Five governance functions for AI, drawn from 12+ years of API scars. Coined by Druhin Dhavala."
+og_description: "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture. Coined by Druhin Dhavala, October 10, 2026."
 og_type: "article"
+og_url: "https://www.druhindhavala.com/ai-governance/gates-framework/"
 og_author: "Druhin Dhavala"
+og_image: "https://www.druhindhavala.com/images/gates-infographic.png"
+og_locale: "en_US"
+og_site_name: "Druhin Dhavala"
+
+# Twitter Card
+twitter_card: "summary_large_image"
+twitter_title: "GATES: The 5 Gates Every AI Gateway Needs"
+twitter_description: "Five governance functions for AI, drawn from 12+ years of API scars. Coined by Druhin Dhavala."
+twitter_image: "https://www.druhindhavala.com/images/gates-infographic.png"
+
+# JSON-LD Structured Data (for SEO + AI citation)
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "GATES AI Governance Framework",
+    "alternateName": "GATES",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "dateCreated": "2026-10-10",
+    "datePublished": "2026-10-10",
+    "url": "https://www.druhindhavala.com/ai-governance/gates-framework/",
+    "description": "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture, drawn from enterprise API platform experience.",
+    "keywords": "AI governance, AI gateway, GATES framework, enterprise AI, LLM, RAG, API governance, platform engineering",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "isBasedOn": "12+ years of enterprise API platform experience"
+  }
 
 ---
+
 
 *This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
 
