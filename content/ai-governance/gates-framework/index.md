@@ -67,11 +67,11 @@ Secure is the first gate because it has to be. You cannot govern what you cannot
 
 What this looks like in practice:
 
-Real-time detection of PII, PHI, PCI, and proprietary IP patterns
-Redaction or tokenization before the prompt leaves your perimeter
-Detection that goes beyond regex — pattern-based, context-aware, whatever the AI implementation requires
-Fail-closed defaults (if you're not sure, redact)
-The maturity ladder here is steep. Level 1 is regex. Level 5 is context-aware detection that understands that "the project I'm working on" might refer to a confidential initiative. Most organizations are at Level 1. Some are at Level 0 — no redaction at all, just prayers.
+- Real-time detection of PII, PHI, PCI, and proprietary IP patterns
+- Redaction or tokenization before the prompt leaves your perimeter
+- Detection that goes beyond regex — pattern-based, context-aware, whatever the AI implementation requires
+- Fail-closed defaults (if you're not sure, redact)
+- The maturity ladder here is steep. Level 1 is regex. Level 5 is context-aware detection that understands that "the project I'm working on" might refer to a confidential initiative. Most organizations are at Level 1. Some are at Level 0 — no redaction at all, just prayers.
 
 What fails without it: Data exfiltration. Compliance violations. The kind of incident that ends up on the front page of The Register.
 
@@ -84,11 +84,11 @@ Govern is the gate that enforces consistency. It validates prompts against enter
 
 What this looks like in practice:
 
-A policy engine that validates prompts against rules (no PII, no off-topic queries, no jailbreak patterns)
-Prompt templates with version control and deprecation policies
-Retrieval standards that enforce which data sources can be used for which use cases
-Model selection policies (which model for which task, which fallback when the primary is down)
-The maturity ladder: Level 1 is a wiki page nobody reads. Level 5 is an automated policy engine that evaluates every prompt in real time and rejects violations before they cost you anything.
+- A policy engine that validates prompts against rules (no PII, no off-topic queries, no jailbreak patterns)
+- Prompt templates with version control and deprecation policies
+- Retrieval standards that enforce which data sources can be used for which use cases
+- Model selection policies (which model for which task, which fallback when the primary is down)
+- The maturity ladder: Level 1 is a wiki page nobody reads. Level 5 is an automated policy engine that evaluates every prompt in real time and rejects violations before they cost you anything.
 
 What fails without it: Inconsistent outputs. Policy violations that compound over time. The slow erosion of trust in AI systems because "sometimes it works, sometimes it doesn't."
 
@@ -103,11 +103,11 @@ Authenticate is the gate that enforces access boundaries. It confirms who is mak
 
 What this looks like in practice:
 
-RBAC and ABAC enforcement at the gateway layer
-Context-aware access (location, device, time of day, data sensitivity)
-Scoped tokens for model invocations (not blanket API keys)
-Just-in-time access for high-risk operations
-The maturity ladder: Level 1 is shared accounts. Level 5 is dynamic, context-aware access that adapts to risk signals in real time.
+- RBAC and ABAC enforcement at the gateway layer
+- Context-aware access (location, device, time of day, data sensitivity)
+- Scoped tokens for model invocations (not blanket API keys)
+- Just-in-time access for high-risk operations
+- The maturity ladder: Level 1 is shared accounts. Level 5 is dynamic, context-aware access that adapts to risk signals in real time.
 
 What fails without it: Unauthorized access. Privilege escalation. The kind of breach that starts with "I thought they only had read access."
 
@@ -120,12 +120,12 @@ Trace is the gate that creates the audit trail. It logs every interaction — pr
 
 What this looks like in practice:
 
-Structured logging of every prompt and response
-Immutable storage (you can't tamper with audit logs)
-Query interface for incident response and compliance audits
-Lineage tracking (which data influenced which output)
-Cost telemetry (which prompts cost how much, to which model, for which user)
-The maturity ladder: Level 1 is basic logs that nobody queries. Level 5 is full lineage and explainability — you can trace any output back to the exact prompt, model version, retrieval context, and policy decision that produced it.
+- Structured logging of every prompt and response
+- Immutable storage (you can't tamper with audit logs)
+- Query interface for incident response and compliance audits
+- Lineage tracking (which data influenced which output)
+- Cost telemetry (which prompts cost how much, to which model, for which user)
+- The maturity ladder: Level 1 is basic logs that nobody queries. Level 5 is full lineage and explainability — you can trace any output back to the exact prompt, model version, retrieval context, and policy decision that produced it.
 
 What fails without it: Inability to audit. Inability to debug. Inability to answer the regulator when they ask "why did your model produce this output about this person?"
 
@@ -140,11 +140,11 @@ Enforce is the gate that filters outputs before they reach the user. It applies 
 
 What this looks like in practice:
 
-Output classification (toxicity, PII, brand voice, factual consistency)
-Human-in-the-loop for high-stakes outputs
-Automated redaction or regeneration when outputs fail checks
-Escalation paths for outputs that can't be auto-resolved
-The maturity ladder: Level 1 is no filtering. Level 5 is multi-layer safety with human oversight for high-stakes decisions.
+- Output classification (toxicity, PII, brand voice, factual consistency)
+- Human-in-the-loop for high-stakes outputs
+- Automated redaction or regeneration when outputs fail checks
+- Escalation paths for outputs that can't be auto-resolved
+- The maturity ladder: Level 1 is no filtering. Level 5 is multi-layer safety with human oversight for high-stakes decisions.
 
 What fails without it: Harmful outputs. Brand damage. The kind of incident that ends up in a congressional hearing.
 
