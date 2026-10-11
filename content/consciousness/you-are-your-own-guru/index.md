@@ -16,17 +16,11 @@ frameworks: ["direct-experience-inquiry", "thought-generation-architecture", "sy
 author: "Druhin Dhavala"
 ---
 
-```
-
----
-
 **"You are your own guru."**
 
 That's not a slogan. It's the structural conclusion of applying systems thinking to the claim "you need a guru." This article shows the work.
 
 ---
-
-### Hook
 
 You run vendor security audits with a 47-point checklist. You reject architectures that can't prove fault tolerance. You demand SLAs with teeth.
 
@@ -342,13 +336,13 @@ Dead gurus can't charge you. Their books are affordable. Their techniques are pu
 
 #### 10. The AI Analogy
 
-```
+
 AI → generates output
 Human → verifies (external authority)
 
 Guru → generates teaching
 Seeker → verifies (external authority)
-```
+
 
 If the seeker is the verifier, the guru is at best a tool — not a master. The moment the guru claims to BE the verifier, they've inverted the architecture. They've made themselves the human in the loop and reduced you to the AI awaiting validation. That's not guidance. That's an architectural inversion.
 
