@@ -14,6 +14,18 @@ categories: ["consciousness", "inquiry", "myth-demolition"]
 frameworks: ["direct-experience-inquiry", "thought-generation-architecture", "systems-analysis"]
 
 author: "Druhin Dhavala"
+
+# PaperMod native layout architecture for images
+cover:
+  image: "https://www.druhindhavala.com/consciousness/you-are-your-own-guru/Dismantle Framework - You are your own guru - Druhin Dhavala.jpeg"
+  alt: "The DISMANTLE Framework Infographic"
+  relative: false
+
+# Custom Parameters mapping to JSON-LD structures
+schema_name: "The DISMANTLE Framework - You are your own Guru"
+schema_alternate: "DISMANTLE"
+schema_keywords: ["Guru", "DISMANTLE Framework", "Guru Parampara", "Guru System", "Enlightenment", "Spirituality", "Yoga"]
+
 ---
 
 **"You are your own guru."**
