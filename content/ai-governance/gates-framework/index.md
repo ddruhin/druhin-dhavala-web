@@ -71,6 +71,8 @@ schema_keywords: ["AI governance", "AI gateway", "GATES framework", "enterprise 
 The infographic above summarizes the GATES framework: five gates (Secure, Govern, Authenticate, Trace, Enforce), a 0-5 maturity score for each gate, a 30-day implementation plan starting with Week 1: Secure, and the trajectory from ad-hoc governance to sustained governance.
 
 *This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
+**GATES™ AI Governance Framework** — coined by Druhin Dhavala, October 10, 2026.
+
 
 I'm not an AI expert. I want to start there because LinkedIn is full of people who sound like AI experts and have never built anything. I'm not that person, and I don't intend to become one.
 
