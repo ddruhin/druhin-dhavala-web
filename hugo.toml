@@ -16,8 +16,6 @@ enableRobotsTXT = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-
-[params]
   env = "production"
 
 [menu]
