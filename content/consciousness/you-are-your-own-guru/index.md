@@ -27,6 +27,12 @@ schema_alternate: "DISMANTLE"
 schema_keywords: ["Guru", "DISMANTLE Framework", "Guru Parampara", "Guru System", "Enlightenment", "Spirituality", "Yoga"]
 
 ---
+Infographic: THE DISMANTLE FRAMEWORK — 9-step systems-thinking test: Define terms, Identify assumptions, Search quantification, Map structure, Analyze first principles, Null-test, Test self-reference, Look for exit condition, Examine incentives. Result: 9 of 9 failures. Conclusion: You are your own guru. No certificate. No endpoint. Nothing to buy.
+
+*This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
+
+**DISMANTLE™ Framework** — coined by Druhin Dhavala, October 11, 2026.
+
 
 **"You are your own guru."**
 
