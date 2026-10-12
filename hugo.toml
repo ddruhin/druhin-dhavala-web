@@ -17,6 +17,9 @@ enableRobotsTXT = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+[params]
+  env = "production"
+
 [menu]
   [[menu.main]]
     name = "AI Governance"
