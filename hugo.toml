@@ -15,6 +15,15 @@ enableRobotsTXT = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com"
+
+
 [menu]
   [[menu.main]]
     name = "AI Governance"
