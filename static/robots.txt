@@ -1,31 +1,36 @@
-# 1. Allow premier AI Search engines to crawl for attribution & RAG answers
-User-agent: GPTBot
+# 1. AI search / retrieval crawlers: allowed (these drive citations)
+User-agent: OAI-SearchBot
 Disallow:
 
 User-agent: ChatGPT-User
 Disallow:
 
-User-agent: ClaudeBot
-Disallow:
-
 User-agent: PerplexityBot
 Disallow:
 
-# 2. Block aggressive content-scrapers that steal IP without driving traffic
+User-agent: Claude-SearchBot
+Disallow:
+
+User-agent: Claude-User
+Disallow:
+
+# 2. AI training crawlers: opted out
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
 User-agent: CCBot
 Disallow: /
 
-User-agent: OAI-SearchBot
-Disallow: /
-
-# 3. Opt out of AI training (still indexed for Search + AI Overviews)
 User-agent: Google-Extended
 Disallow: /
 
 User-agent: Applebot-Extended
 Disallow: /
 
-# 4. Global settings for standard search engines (Google, Bing, DuckDuckGo)
+# 3. Everything else (Google, Bing, DuckDuckGo, etc.)
 User-agent: *
 Disallow:
 
