@@ -18,6 +18,15 @@ firstPublished: "2026-03-27"
 originalPublication: "https://druhindhavala.substack.com/p/from-on-prem-greenfields-enterprise"
 ---
 
+## Series Context
+
+This article is part of a series on governance architecture:
+
+1. **From On-Prem Greenfields → Enterprise Modernization: 10-Year API Gateway Lessons** (this article) — The scars that shaped this thinking
+2. **[The AI Gateway: Governance as Enterprise Infrastructure](/ai-governance/ai-gateway-control-plane/)** — The diagnosis
+3. **[GATES — The 5 Gates Every AI Gateway Needs](/ai-governance/gates-framework/)** — The prescription
+
+
 From On-Prem Greenfields ➡️ Enterprise Modernization: 10-Year API Gateway Lessons
 My API Gateway journey
 
@@ -64,11 +73,9 @@ Much later — for a different client — I implemented AWS API Gateway in a bou
 It reframed how I think about reliability, cost, and modernization strategy.
 My Takeaway
 
-
 Across on‑prem, hybrid, Kubernetes, virtualization, and serverless, one theme stayed constant:
 A gateway is only as strong as the infrastructure beneath it and the automation around it.
 
 I’ve shared a rough blueprint + evaluation framework on GitHub for anyone exploring similar transitions.
 
 What’s been your toughest API Gateway migration challenge — and how did you solve it?
-

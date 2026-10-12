@@ -15,4 +15,4 @@ I write about what is coming before it becomes obvious. Built on a decade of pla
 - **[Post-Peak AI Economics](/ai-governance/post-peak-ai-economics/)** — Why AI ROI curves flatten by Year 4–5
 - **[Enterprise AI Failure Pattern](/ai-governance/enterprise-ai-failure-pattern/)** — Why 95% of enterprise AI deployments will collapse
 - **[AI Hype Cycle](/ai-governance/ai-hype-cycle/)** — The architectural reality beneath the optimism
-- **[GATES AI Governance Framework](/ai-governance/gates-framework/)** — The GATES AI Governance Framework : DIY Assessment for your Organization
+- **[GATES AI Governance Framework](/ai-governance/gates-framework/)** — GATES AI Governance Framework — Five governance functions for AI Gateway architecture

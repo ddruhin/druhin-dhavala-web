@@ -19,6 +19,14 @@ firstPublished: "2026-03-24"
 originalPublication: "https://druhindhavala.substack.com/p/the-ai-gateway-governance-as-enterprise"
 ---
 
+## Series Context
+
+This article is part of a series on governance architecture:
+
+1. **[From On-Prem Greenfields → Enterprise Modernization: 10-Year API Gateway Lessons](/platform-engineering/api-gateway-modernization-lessons-from-on-prem-to-cloud/)** — The scars that shaped this thinking
+2. **The AI Gateway: Governance as Enterprise Infrastructure** (this article) — The diagnosis
+3. **[GATES — The 5 Gates Every AI Gateway Needs](/ai-governance/gates-framework/)** — The prescription
+
 
 AI Gateway as the enterprise control plane for all intelligence transactions.
 
