@@ -9,6 +9,7 @@ enableRobotsTXT = false
 
 [author]
   name = "Druhin Dhavala"
+  url = "https://www.druhindhavala.com/"
   
 [params]
   description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
