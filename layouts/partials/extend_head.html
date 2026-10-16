@@ -33,6 +33,22 @@
 </script>
 {{ end }}
 
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Druhin Dhavala",
+  "url": "{{ site.BaseURL }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/druhin-dhavala",
+    "https://github.com/ddruhin"
+  ]
+}
+</script>
+{{ end }}
+
+
 {{ if .Params.schema_name }}
 <script type="application/ld+json">
 {
