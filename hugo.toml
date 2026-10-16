@@ -6,11 +6,9 @@ title = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
 theme = "PaperMod"
 
 enableRobotsTXT = false
-
-[author]
-  name = "Druhin Dhavala"
   
 [params]
+  name = "Druhin Dhavala"
   description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
   keywords = ["AI governance", "enterprise AI", "RAG", "API gateway", "platform engineering", "AI strategy", "Druhin Dhavala"]
   ShowSearch = true
@@ -22,7 +20,7 @@ enableRobotsTXT = false
 
 # This section passes your social links natively into PaperMod's schema engine
   [params.schema]
-    authorUrl = "https://linkedin.com"
+    authorUrl = "www.linkedin.com/in/druhin-dhavala"
     publisherName = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
     publisherLogo = "https://www.druhindhavala.com/favicon.ico"
     
