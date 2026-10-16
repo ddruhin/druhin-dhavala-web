@@ -17,12 +17,6 @@ enableRobotsTXT = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   env = "production"
-
-# This section passes your social links natively into PaperMod's schema engine
-  [params.schema]
-    authorUrl = "www.linkedin.com/in/druhin-dhavala"
-    publisherName = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
-    publisherLogo = "https://www.druhindhavala.com/favicon.ico"
     
 [menu]
   [[menu.main]]
