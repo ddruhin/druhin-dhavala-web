@@ -18,6 +18,8 @@ firstPublished: "2026-10-10"
 # PaperMod native layout architecture for images
 cover:
   image: "https://www.druhindhavala.com/ai-governance/gates-framework/GATES-Framework-druhin-dhavala.jpeg"
+  width: 1200
+  height: 630
   alt: "The GATES AI Governance Framework Infographic"
   relative: false
 
