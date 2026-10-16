@@ -191,25 +191,4 @@
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
-{{ if .IsPage }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ .Title }}",
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "mainEntityOfPage": "{{ .Permalink }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ site.Author.name }}",
-    "jobTitle": "{{ site.Params.authorProfile.jobTitle }}",
-    "url": "{{ site.BaseURL }}",
-    "sameAs": [
-      "{{ site.Params.authorProfile.linkedin }}"
-    ]
-  }
-}
-</script>
-{{ end }}
-
 {{- end -}}
