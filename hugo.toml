@@ -6,9 +6,9 @@ title = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
 theme = "PaperMod"
 
 enableRobotsTXT = false
-
+ 
 [params]
-  author = "Druhin Dhavala"
+  name = "Druhin Dhavala"
   description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
   keywords = ["AI governance", "enterprise AI", "RAG", "API gateway", "platform engineering", "AI strategy", "Druhin Dhavala"]
   ShowSearch = true
@@ -17,7 +17,7 @@ enableRobotsTXT = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   env = "production"
-
+    
 [menu]
   [[menu.main]]
     name = "AI Governance"

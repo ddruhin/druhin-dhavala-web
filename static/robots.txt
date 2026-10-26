@@ -1,4 +1,4 @@
-# 1. AI search / retrieval crawlers: allowed (these drive citations)
+# AI search / retrieval crawlers: allowed
 User-agent: OAI-SearchBot
 Disallow:
 
@@ -8,30 +8,50 @@ Disallow:
 User-agent: PerplexityBot
 Disallow:
 
+User-agent: Perplexity-User
+Disallow:
+
 User-agent: Claude-SearchBot
 Disallow:
 
 User-agent: Claude-User
 Disallow:
 
-# 2. AI training crawlers: opted out
+# AI training crawlers: allowed (CC BY attribution protects the work)
 User-agent: GPTBot
-Disallow: /
+Disallow:
 
 User-agent: ClaudeBot
-Disallow: /
+Disallow:
 
 User-agent: CCBot
-Disallow: /
+Disallow:
 
 User-agent: Google-Extended
-Disallow: /
+Disallow:
 
 User-agent: Applebot-Extended
-Disallow: /
+Disallow:
 
-# 3. Everything else (Google, Bing, DuckDuckGo, etc.)
+# Cover the remaining major training crawlers
+User-agent: Meta-ExternalAgent
+Disallow:
+
+User-agent: Bytespider
+Disallow:
+
+User-agent: Amazonbot
+Disallow:
+
+User-agent: Diffbot
+Disallow:
+
+User-agent: cohere-ai
+Disallow:
+
+# Everything else
 User-agent: *
 Disallow:
 
 Sitemap: https://www.druhindhavala.com/sitemap.xml
+

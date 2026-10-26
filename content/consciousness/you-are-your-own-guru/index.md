@@ -18,6 +18,8 @@ author: "Druhin Dhavala"
 # PaperMod native layout architecture for images
 cover:
   image: "https://www.druhindhavala.com/consciousness/you-are-your-own-guru/Dismantle Framework - You are your own guru - Druhin Dhavala.jpeg"
+  width: 1200
+  height: 630  
   alt: "The DISMANTLE Framework Infographic"
   relative: false
 
