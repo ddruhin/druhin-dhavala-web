@@ -56,8 +56,6 @@ schema_name: "Who Governs the Governor? — Stored Prompt Injection Through the 
 schema_keywords: ["stored prompt injection", "indirect prompt injection", "API gateway", "agentic AI", "data provenance", "OPA", "zero trust", "API security"]
 ---
 
-# Who Governs the Governor? — Stored Prompt Injection Through the API Gateway
-
 *Notes from thirteen years of API gateways, on the day an AI agent writes to your database. Written October 2026. Last updated October 2026.*
 
 If you’re reading this years from now, after the incident review and the cleanup invoice: this is a record that the problem was visible.
