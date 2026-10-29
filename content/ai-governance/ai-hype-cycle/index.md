@@ -16,6 +16,37 @@ frameworks: ["AI Hype Cycle"]
 
 images: ["/images/ai-hype-cycle.png"]
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/ai-hype-cycle/#article",
+    "headline": "AI Hype Cycle Architectural Analysis",
+    "name": "AI Hype Cycle: The Architectural Reality Beneath the Optimism",
+    "description": "Historical comparison of generative AI optimism against metaverse, blockchain, NFT, IoT, and dot-com cycles. Three first-principles tests: commodity vs. proprietary moat, last-mile accuracy deficit, physical infrastructure constraints.",
+    "keywords": ["AI hype", "AI investment", "technology cycles", "generative AI", "AI bubble", "technology history"],
+    "url": "https://www.druhindhavala.com/ai-governance/ai-hype-cycle/",
+    "datePublished": "2026-05-29",
+    "dateModified": "2026-05-29",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "AI Hype"},
+      {"@type": "Thing", "name": "Technology Cycles"},
+      {"@type": "Thing", "name": "Investment Analysis"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of technology adoption cycles and historical market patterns"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-05-29"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hype-cycle"
