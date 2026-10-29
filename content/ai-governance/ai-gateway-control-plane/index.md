@@ -16,6 +16,37 @@ frameworks: ["AI Gateway Control Plane"]
 
 images: ["/images/ai-gateway-control-plane.png"]
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/ai-gateway-control-plane/#article",
+    "headline": "AI Gateway Control Plane",
+    "name": "The AI Gateway: Governance as Enterprise Control Plane",
+    "description": "Architectural thesis that every enterprise AI interaction must route through a governed API proxy layer. Governance is the architecture, not a compliance document.",
+    "keywords": ["AI gateway", "API gateway", "enterprise architecture", "AI governance", "platform engineering", "LLM governance"],
+    "url": "https://www.druhindhavala.com/ai-governance/ai-gateway-control-plane/",
+    "datePublished": "2026-03-24",
+    "dateModified": "2026-03-24",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "AI Gateway"},
+      {"@type": "Thing", "name": "Enterprise Architecture"},
+      {"@type": "Thing", "name": "API Governance"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of API Gateway patterns and enterprise middleware architecture"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-03-24"
 originalPublication: "https://druhindhavala.substack.com/p/the-ai-gateway-governance-as-enterprise"

@@ -16,6 +16,38 @@ frameworks: ["RAG Data Integrity Model"]
 
 images: ["/images/rag-data-integrity.png"]
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/rag-hallucination-data-problem/#article",
+    "headline": "RAG Data Integrity Model",
+    "name": "RAG Data Integrity Model: Hallucinations Are Architecture Failures",
+    "description": "AI hallucinations are data architecture failures, not model failures. RAG pipelines embed conflicting source records when upstream reconciliation is absent. Vector indexes must be treated as derived views.",
+    "keywords": ["RAG", "retrieval augmented generation", "AI hallucinations", "vector database", "data architecture", "data integrity", "embeddings"],
+    "url": "https://www.druhindhavala.com/ai-governance/rag-hallucination-data-problem/",
+    "datePublished": "2026-04-22",
+    "dateModified": "2026-04-22",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "RAG"},
+      {"@type": "Thing", "name": "Vector Databases"},
+      {"@type": "Thing", "name": "Data Architecture"},
+      {"@type": "Thing", "name": "AI Hallucinations"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of retrieval-augmented generation, vector indexing, and data pipeline architecture"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-04-22"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hallucinations"

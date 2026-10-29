@@ -17,6 +17,37 @@ frameworks: ["Enterprise AI Failure Pattern"]
 
 images: ["/images/enterprise-ai-failure.png"]
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/enterprise-ai-failure-pattern/#article",
+    "headline": "Enterprise AI Failure Pattern",
+    "name": "Enterprise AI Failure Pattern: Why 95% Will Collapse",
+    "description": "95%+ of enterprise AI deployments will fail — not because AI is immature, but because the enterprise is. Root cause: bolting AI onto fragmented, ungoverned systems creates irreversible compounding tech debt.",
+    "keywords": ["enterprise AI", "AI failure", "AI strategy", "technical debt", "AI adoption", "digital transformation"],
+    "url": "https://www.druhindhavala.com/ai-governance/enterprise-ai-failure-pattern/",
+    "datePublished": "2026-07-10",
+    "dateModified": "2026-07-10",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "Enterprise AI"},
+      {"@type": "Thing", "name": "Technical Debt"},
+      {"@type": "Thing", "name": "AI Strategy"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of enterprise architecture, data platform fragmentation, and AI adoption patterns"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-07-10"
 originalPublication: "https://druhindhavala.substack.com/p/next-biggest-opportunity-isnt-ai"

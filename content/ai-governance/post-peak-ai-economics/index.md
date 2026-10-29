@@ -16,6 +16,37 @@ frameworks: ["Post-Peak AI Economics"]
 
 images: ["/images/post-peak-ai-economics.png"]
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/post-peak-ai-economics/#article",
+    "headline": "Post-Peak AI Economics Model",
+    "name": "Post-Peak AI Economics: The Year 4–5 Collapse",
+    "description": "AI ROI curves flatten sharply by Year 4–5. Front-loaded gains captured in Years 1–3. Persistent inference, retraining, monitoring, and headcount costs do not decline proportionally.",
+    "keywords": ["AI economics", "AI ROI", "AI total cost of ownership", "AI investment", "technology ROI", "FinOps"],
+    "url": "https://www.druhindhavala.com/ai-governance/post-peak-ai-economics/",
+    "datePublished": "2026-08-01",
+    "dateModified": "2026-08-01",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "AI Economics"},
+      {"@type": "Thing", "name": "AI ROI"},
+      {"@type": "Thing", "name": "Technology Investment"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of enterprise AI deployment costs and technology investment cycles"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-08-01"
 originalPublication: "https://druhindhavala.substack.com/p/the-post-peak-ai-problem-nobody-is"

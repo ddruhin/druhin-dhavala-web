@@ -45,25 +45,32 @@ twitter_image: "https://www.druhindhavala.com/ai-governance/gates-framework/GATE
 jsonld: |
   {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "GATES AI Governance Framework",
-    "alternateName": "GATES",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/gates-framework/#article",
+    "headline": "GATES AI Governance Framework",
+    "name": "GATES: The 5 Gates Every AI Gateway Needs",
+    "description": "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture, drawn from enterprise API platform experience.",
+    "keywords": ["AI governance", "AI gateway", "GATES framework", "enterprise AI", "LLM", "RAG", "API governance", "platform engineering"],
+    "url": "https://www.druhindhavala.com/ai-governance/gates-framework/",
+    "datePublished": "2026-10-10",
+    "dateModified": "2026-10-10",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
     "author": {
       "@type": "Person",
       "name": "Druhin Dhavala",
-      "url": "https://www.druhindhavala.com",
+      "url": "https://www.druhindhavala.com/about/",
       "sameAs": [
         "https://www.linkedin.com/in/druhin-dhavala/",
         "https://github.com/ddruhin"
       ]
     },
-    "dateCreated": "2026-10-10",
-    "datePublished": "2026-10-10",
-    "url": "https://www.druhindhavala.com/ai-governance/gates-framework/",
-    "description": "Five governance functions (Secure, Govern, Authenticate, Trace, Enforce) for AI Gateway architecture, drawn from enterprise API platform experience.",
-    "keywords": "AI governance, AI gateway, GATES framework, enterprise AI, LLM, RAG, API governance, platform engineering",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "isBasedOn": "12+ years of enterprise API platform experience"
+    "about": [
+      {"@type": "Thing", "name": "AI Governance"},
+      {"@type": "Thing", "name": "API Gateway"},
+      {"@type": "Thing", "name": "Enterprise AI"}
+    ],
+    "proficiencyLevel": "Expert",
+    "dependencies": "Requires understanding of API Gateway architecture and enterprise governance patterns"
   }
 
 # Custom Parameters mapping to JSON-LD structures
@@ -72,6 +79,18 @@ schema_alternate: "GATES"
 schema_keywords: ["AI governance", "AI gateway", "GATES framework", "enterprise AI", "LLM", "RAG", "API governance", "platform engineering"]
 
 ---
+<details style="display:none;" open>
+  <summary>GATES Framework Architecture — Text Blueprint for AI Crawlers</summary>
+  <ul>
+    <li><strong>Gate 1 — Secure:</strong> PII/PHI/IP redaction, prompt injection defense, data exfiltration prevention. Maturity: Regex (1) → Context-aware semantic redaction (5).</li>
+    <li><strong>Gate 2 — Govern:</strong> Prompt policy validation, prompt versioning, compliance rule engine. Maturity: Wiki page (1) → Automated policy-as-code (5).</li>
+    <li><strong>Gate 3 — Authenticate:</strong> RBAC/ABAC enforcement, context-aware access, identity propagation. Maturity: Shared API keys (1) → Dynamic risk-based access (5).</li>
+    <li><strong>Gate 4 — Trace:</strong> Immutable audit logging, full data lineage, semantic record tracking. Maturity: Basic request logs (1) → Complete lineage with provenance (5).</li>
+    <li><strong>Gate 5 — Enforce:</strong> Output filtering, safety controls, rate limiting, egress restriction. Maturity: None (0) → Multi-layer filtering + human-in-the-loop (5).</li>
+  </ul>
+  <p><strong>Composite score:</strong> Sum of all five gates (max 25). <strong>License:</strong> CC BY 4.0.</p>
+</details>
+
 The infographic above summarizes the GATES framework: five gates (Secure, Govern, Authenticate, Trace, Enforce), a 0-5 maturity score for each gate, a 30-day implementation plan starting with Week 1: Secure, and the trajectory from ad-hoc governance to sustained governance.
 
 *This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
