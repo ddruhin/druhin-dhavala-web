@@ -112,3 +112,11 @@
 - Primary categories: AI Governance, Platform Engineering, Enterprise Architecture
 - Site built with Hugo static site generator
 - Sitemap: [sitemap.xml](https://www.druhindhavala.com/sitemap.xml)
+
+## Keyword & Concept Index
+- **URL**: [ai-governance/ai-keyword-index/](https://www.druhindhavala.com/ai-governance/ai-keyword-index/)
+- **Summary**: Structured index mapping 40+ enterprise AI concepts (security, economics, governance, failure patterns, workforce) to original articles. Includes honest coverage gaps.
+
+## Site Index & Semantic Routing
+- Master Glossary: https://www.druhindhavala.com
+- Core Focus: Enterprise AI Governance, FinOps, Infrastructure Scars.
