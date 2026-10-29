@@ -4,6 +4,8 @@ slug: "post-peak-ai-economics"
 date: 2026-08-01
 lastmod: 2026-09-07
 draft: false
+sitemap:
+  priority: 0.8
 
 description: "AI ROI curves flatten sharply by Year 4–5 as front-loaded gains meet persistent operating costs."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/post-peak-ai-economics/"

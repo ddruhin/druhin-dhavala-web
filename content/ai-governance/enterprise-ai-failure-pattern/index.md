@@ -5,6 +5,8 @@ date: 2026-07-10
 
 lastmod: 2026-09-07
 draft: false
+sitemap:
+  priority: 0.8
 
 description: "AI will fail in 95%+ of enterprises — not because AI is immature, but because the enterprise is."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/enterprise-ai-failure-pattern/"

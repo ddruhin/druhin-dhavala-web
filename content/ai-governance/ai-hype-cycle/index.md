@@ -4,6 +4,8 @@ slug: "ai-hype-cycle"
 date: 2026-05-29
 lastmod: 2026-09-07
 draft: false
+sitemap:
+  priority: 0.8
 
 description: "AI feels unstoppable — but so did the metaverse, blockchain, NFTs, IoT, and big data."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/ai-hype-cycle/"

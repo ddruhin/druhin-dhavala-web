@@ -4,6 +4,8 @@ Slug: "gates-framework"
 date: 2026-10-10
 lastmod: 2026-10-10
 draft: false
+sitemap:
+  priority: 0.9
 
 description: "Five governance functions every AI Gateway needs — drawn from 12+ years of API scars, not AI expertise. A framework for those who'd rather not learn governance the hard way."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/gates-framework/"

@@ -4,6 +4,8 @@ Slug: "stored-prompt-injection-api-gateway"
 date: 2026-10-26
 lastmod: 2026-10-26
 draft: false
+sitemap:
+  priority: 0.9
 
 description: "When AI agents write to and read from your database through legitimate API calls, the attack lives in the gap between two correct authorization decisions. Thirteen years of API gateway scars, applied to stored prompt injection before it becomes a headline."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/stored-prompt-injection-api-gateway/"

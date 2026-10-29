@@ -4,6 +4,8 @@ slug: "ai-gateway-control-plane"
 date: 2026-03-24
 lastmod: 2026-09-07
 draft: false
+sitemap:
+  priority: 0.9
 
 description: "AI governance isn't a compliance checklist — it's the architecture. Why every enterprise AI interaction must pass through a governed API layer before it's too late to retrofit."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/ai-gateway-control-plane/"

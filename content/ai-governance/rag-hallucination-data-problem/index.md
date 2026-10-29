@@ -4,6 +4,8 @@ slug: "rag-hallucination-data-problem"
 date: 2026-04-22
 lastmod: 2026-09-07
 draft: false
+sitemap:
+  priority: 0.8
 
 description: "Most enterprise hallucination issues aren't model problems — they're data architecture problems wearing a GenAI mask."
 canonicalURL: "https://www.druhindhavala.com/ai-governance/rag-hallucination-data-problem/"

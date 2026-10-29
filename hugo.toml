@@ -1,65 +1,123 @@
-copyright = "© 2026 [Druhin Dhavala — Enterprise AI Governance & Platform Architecture](https://www.druhindhavala.com/) · [LinkedIn](https://www.linkedin.com/in/druhin-dhavala)"
-
+# ── Site ──────────────────────────────────────────────
 baseURL = "https://www.druhindhavala.com/"
 languageCode = "en-us"
 title = "Druhin Dhavala — Enterprise AI Governance & Platform Architecture"
 theme = "PaperMod"
+copyright = "© 2026 [Druhin Dhavala — Enterprise AI Governance & Platform Architecture](https://www.druhindhavala.com/) · [LinkedIn](https://www.linkedin.com/in/druhin-dhavala)"
 
-enableRobotsTXT = false
- 
+# ── FIX: Enable Hugo-managed robots.txt ───────────────
+# Was: false. Now true so Hugo generates it from layouts/robots.txt template.
+# If you prefer manual static/robots.txt, keep false and ignore this.
+enableRobotsTXT = true
+
+# ── FIX: Git-based lastmod for sitemap ────────────────
+# Without this, Hugo uses file mtime or falls back to build date.
+# This is why your sitemap shows 2026-09-07 for everything.
+enableGitInfo = true
+
+# ── FIX: Frontmatter date resolution order ────────────
+[frontmatter]
+  date   = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+# ── Outputs ───────────────────────────────────────────
+[outputs]
+  home     = ["HTML", "RSS", "JSON"]
+  section  = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term     = ["HTML", "RSS"]
+
+# ── Params ────────────────────────────────────────────
 [params]
-  name = "Druhin Dhavala"
+  name        = "Druhin Dhavala"
   description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
-  keywords = ["AI governance", "enterprise AI", "RAG", "API gateway", "platform engineering", "AI strategy", "Druhin Dhavala"]
-  ShowSearch = true
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+
+  # FIX: Expanded keywords for SEO + AI discovery
+  keywords = [
+    "AI governance", "enterprise AI", "AI governance framework", "GATES framework",
+    "AI Gateway", "AI Gateway control plane", "RAG data integrity", "RAG hallucination",
+    "stored prompt injection", "indirect prompt injection", "API gateway", "API security",
+    "platform engineering", "enterprise architecture", "AI strategy", "AI economics",
+    "AI ROI", "AI failure patterns", "AI hype cycle", "enterprise AI governance",
+    "LLM governance", "AI guardrails", "prompt injection", "data provenance",
+    "zero trust AI", "agentic AI security", "Druhin Dhavala"
+  ]
+
+  # FIX: OpenGraph / Twitter Card defaults (used when page doesn't set its own)
+  images = ["/images/og-default.png"]           # Create this image
+  ShareButtons = ["linkedin", "twitter", "reddit"]
+
+  ShowSearch          = true
+  ShowReadingTime     = true
+  ShowPostNavLinks    = true
+  ShowBreadCrumbs     = true
   ShowCodeCopyButtons = true
-  env = "production"
-    
+  env                 = "production"
+
+# ── Menu ──────────────────────────────────────────────
 [menu]
   [[menu.main]]
-    name = "AI Governance"
-    url = "/ai-governance/"
+    name   = "AI Governance"
+    url    = "/ai-governance/"
     weight = 1
 
   [[menu.main]]
-    name = "Platform Engineering"
-    url = "/platform-engineering/"
+    name   = "Platform Engineering"
+    url    = "/platform-engineering/"
     weight = 2
 
   [[menu.main]]
-    name = "Perspective"
-    url = "/perspective/"
+    name   = "Perspective"
+    url    = "/perspective/"
     weight = 3
 
   [[menu.main]]
-    name = "Consciousness"
-    url = "/consciousness/"
+    name   = "Consciousness"
+    url    = "/consciousness/"
     weight = 4
 
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name   = "About"
+    url    = "/about/"
     weight = 5
 
   [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
+    name   = "Contact"
+    url    = "/contact/"
     weight = 6
 
+# ── Permalinks ────────────────────────────────────────
 [permalinks]
-  ai-governance = "/ai-governance/:slug/"
+  ai-governance        = "/ai-governance/:slug/"
   platform-engineering = "/platform-engineering/:slug/"
-  perspective = "/perspective/:slug/"
+  perspective          = "/perspective/:slug/"
+  consciousness        = "/consciousness/:slug/"       # FIX: was missing
 
+# ── Taxonomies ────────────────────────────────────────
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  category  = "categories"
+  tag       = "tags"
   framework = "frameworks"
 
+# ── FIX: Sitemap ──────────────────────────────────────
+# Global default stays 0.5 for taxonomy/tag pages.
+# Cornerstone articles override this in frontmatter (see below).
 [sitemap]
   changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+  priority   = 0.5
+  filename   = "sitemap.xml"
+
+# ── Privacy (GDPR) ────────────────────────────────────
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
