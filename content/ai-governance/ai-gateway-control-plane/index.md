@@ -52,6 +52,8 @@ firstPublished: "2026-03-24"
 originalPublication: "https://druhindhavala.substack.com/p/the-ai-gateway-governance-as-enterprise"
 ---
 
+> **Provenance**: Published March 24, 2026. API gateways are a mature category. AI gateways are emerging. This piece argues that governance is the architecture itself — not a layer added after deployment. Written from a decade of API platform migrations.
+
 ## Series Context
 
 This article is part of a series on governance architecture:

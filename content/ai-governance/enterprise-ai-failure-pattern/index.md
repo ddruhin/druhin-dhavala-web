@@ -53,7 +53,7 @@ firstPublished: "2026-07-10"
 originalPublication: "https://druhindhavala.substack.com/p/next-biggest-opportunity-isnt-ai"
 ---
 
-> **First Mover Record**: Published August 2026 — before CFOs started asking why the AI line item wasn't shrinking. Before the Year 4 ROI flattening became visible in quarterly earnings calls. Before the budget corrections began.
+> **Provenance**: Published July 10, 2026. Enterprise AI failure rates are widely discussed (McKinsey, Gartner). This piece identifies the root cause as data platform fragmentation and FOMO-driven procurement — not model immaturity. The debt is compounding and irreversible.
 
 Next biggest opportunity isn’t AI
 It’s surviving the tech‑debt bomb AI is about to create.

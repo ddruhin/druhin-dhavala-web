@@ -16,7 +16,7 @@ firstPublished: "2026-08-31"
 originalPublication: "https://druhindhavala.substack.com/p/ai-influencer"
 ---
 
-> **First Mover Record**: Published September 2026 — before the AI hiring bubble produced its first wave of expensive failures. Before enterprises realized they were hiring on FOMO and evaluating on vibes. Before the global talent pool with verifiable delivery experience was measured in hundreds, not thousands.
+> **Context**: Published September 9, 2026. The AI hiring wave was at its peak. This piece identified the structural problem: undefined roles, unmeasurable outcomes, and a global talent pool with verifiable delivery experience measured in hundreds. Companies were hiring on FOMO and evaluating on vibes.
 
 **We're Hiring AI Talent Nobody Knows How to Evaluate, for Roles Nobody Defined, to Solve Problems Nobody Quantified**
 And we're calling it "strategy."

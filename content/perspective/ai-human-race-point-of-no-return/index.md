@@ -18,7 +18,7 @@ firstPublished: "2026-07-26"
 originalPublication: "https://druhindhavala.substack.com/p/ai-and-human-race-point-of-no-return"
 ---
 
-> **First Mover Record**: Published July 2026 — before "cognitive debt" entered the public conversation. Before the neuroplasticity research caught up to what was already visible: outsourcing thinking to AI is not augmentation, it's replacement. Before the point of no return became measurable.
+> **Context**: Published July 26, 2026. AI was framed as a productivity tool. This piece argued it is a humanity-altering event — unlike prior technologies that augmented cognition, AI replaces it. Cognitive debt from outsourcing thinking may be irreversible within a generation.
 
 AI and Human Race - Point of NO return
 ***This post is NOT curated NOR written by AI, for a reason***

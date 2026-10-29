@@ -16,7 +16,7 @@ firstPublished: "2026-09-25"
 originalPublication: "https://www.druhindhavala.com/perspective/ai-coding-skill-atrophy"
 ---
 
-> **First Mover Record**: Published September 2026 — before the Anthropic study confirmed a 17-point comprehension drop in AI-assisted developers. Before enterprises realized their codebase was growing faster than their engineers' ability to understand it.
+> **Context**: Published September 25, 2026. AI coding assistants were widely adopted. This piece flagged the comprehension cost — later confirmed by Anthropic's 2026 study showing a 17-point drop in developer understanding. The risk: systems built with AI that no human understands deeply enough to fix.
 
 
 **We Already Left the Road**

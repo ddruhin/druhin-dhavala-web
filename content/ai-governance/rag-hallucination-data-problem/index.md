@@ -55,7 +55,7 @@ originalPublication: "https://druhindhavala.substack.com/p/ai-hallucinations"
 
 > **TL;DR**: AI hallucinations are data architecture failures, not model failures. When conflicting source records enter a vector index without upstream reconciliation, the RAG pipeline embeds all versions and outputs garbage. Vector indexes must be treated as derived views — not sources of truth. Data reconciliation must be enforced upstream from the embedding loop via data contracts and CDC-based freshness.
 
-> **First Mover Record**: Published April 2026 — before "RAG hallucination" was understood as a data architecture problem rather than a model problem. Before vector index staleness became a production incident category.
+> **Provenance**: Published April 22, 2026. RAG hallucination is a known problem. This piece reframes it as a data architecture failure: vector indexes are derived views, not sources of truth. Data reconciliation must happen upstream from the embedding loop. Written from enterprise data platform experience.
 
 ## RAG Failure Modes — Reference Table
 

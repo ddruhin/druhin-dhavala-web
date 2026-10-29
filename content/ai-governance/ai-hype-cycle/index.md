@@ -52,7 +52,7 @@ firstPublished: "2026-05-29"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hype-cycle"
 ---
 
-> **First Mover Record**: Published May 2026 — before the generative AI investment cycle faced its first major correction. Before the three first-principles tests (commodity moat, last-mile accuracy, power grid constraints) became boardroom questions.
+> **Provenance**: Published May 29, 2026. Technology hype cycles are well-documented (Gartner). This piece applies three first-principles tests — commodity moat, last-mile accuracy deficit, physical infrastructure constraints — to generative AI specifically. Historical comparisons to dot-com, blockchain, and metaverse cycles.
 
 
 🛑 AI Hype Cycle

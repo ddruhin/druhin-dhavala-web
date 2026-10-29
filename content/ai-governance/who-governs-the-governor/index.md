@@ -69,7 +69,7 @@ schema_keywords: ["stored prompt injection", "indirect prompt injection", "API g
 ---
 > **TL;DR**: Adversarial text enters a database through a legitimate, authorized API write. An autonomous AI agent later reads that text as instruction — not data — and executes it. Every API call in the chain was individually authorized. The exploit lives in the gap between two correct decisions. Mitigation requires data provenance tracking, read-path policy enforcement, and action-scoped tokens — not content scanning.
 
-> **First Mover Record**: Published October 2026 — before stored prompt injection entered mainstream security discourse. Before the first CVE. Before the incident review and the cleanup invoice. Written from 13 years of API gateway scars, not AI lab research.
+> **Provenance**: Published October 26, 2026. Indirect and stored prompt injection are documented elsewhere (Greshake et al., 2023; OWASP LLM01; EchoLeak, CVE-2025-32711). This piece adds a view from API-gateway practice: provenance recorded at write, policy enforced at read, and action-scoped tokens. Written from 13 years of API gateway experience, not AI lab research.
 
 *Notes from thirteen years of API gateways, on the day an AI agent writes to your database. Written October 2026. Last updated October 2026.*
 

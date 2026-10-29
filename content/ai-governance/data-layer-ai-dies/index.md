@@ -53,7 +53,7 @@ The Data Layer Is Where AI Goes to Die
 
 > **TL;DR**: Enterprise AI fails at the data layer, not the model layer. Conflicting schemas, missing lineage, stale caches, and unreconciled entity resolution produce unreliable AI outputs regardless of model quality. AI does not clean, unify, or reconcile data — it amplifies whatever mess already exists. Garbage semantics in, garbage semantics out.
 
-> **First Mover Record**: Published September 2026 — before "garbage semantics in, garbage semantics out" entered the enterprise AI lexicon. Before the first RAG hallucination post-mortems traced root cause to unreconciled source data. Before the cleanup invoice.
+> **Provenance**: Published September 8, 2026. "Garbage in, garbage out" is decades old. This piece coins "garbage semantics in, garbage semantics out" — the specific application to AI: conflicting schemas, missing lineage, and stale caches produce unreliable outputs regardless of model quality. AI amplifies the mess; it does not clean it.
 
 
 ## Data Failure Taxonomy
