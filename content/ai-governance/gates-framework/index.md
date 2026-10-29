@@ -97,6 +97,8 @@ The infographic above summarizes the GATES framework: five gates (Secure, Govern
 
 > **TL;DR**: GATES is a five-gate runtime enforcement model for AI Gateway governance: Secure (PII/PHI/IP redaction), Govern (policy validation, prompt versioning), Authenticate (RBAC/ABAC, context-aware access), Trace (immutable audit, lineage), Enforce (output filtering, safety controls). Each gate is scored 0–5 on a maturity scale. Built from 12+ years of API gateway operations, not AI lab research. Licensed CC BY 4.0.
 
+> **First Mover Record**: Published October 2026 — before "AI Gateway" became a product category. Before every vendor shipped a governance checkbox. Before the first enterprise learned the hard way that governance is architecture, not a compliance document.
+
 ## GATES Framework — Reference Table
 
 | Gate | Function | What It Prevents | Maturity 1 → 5 |

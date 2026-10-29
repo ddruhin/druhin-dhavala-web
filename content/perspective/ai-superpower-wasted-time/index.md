@@ -16,6 +16,8 @@ author: "Druhin Dhavala"
 firstPublished: "2026-09-18"
 ---
 
+> **First Mover Record**: Published September 2026 — before the AI productivity paradox had a name. Before enterprises measured whether saved time went to meaningful work or more screen time. Before anyone asked "what is the saved time for?"
+
 **AI Gave Us Superpowers. Now We're Just Scrolling Faster.**
 
 A friend of mine, Ross, told me something last week that I haven't stopped thinking about.

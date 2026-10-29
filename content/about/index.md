@@ -36,6 +36,12 @@ My work sits at the intersection of capabilities that rarely coexist in a single
 
 **Published Thought Leadership**. I write what I have learned before it becomes obvious. AI governance architecture. The API-to-AI gateway pattern. Vendor rationalization at enterprise scale. Enterprise architecture as a revenue enabler. **Every article is timestamped. Every framework is named**.
 
+## How I Use AI
+
+Every article on this site is built on operational experience — 25+ years of platform engineering, 1,200+ APIs governed, real war rooms. I use AI for editing, structure, and curation. I do not use AI to generate ideas, fabricate scars, or simulate expertise I don't have.
+
+If a sentence here resonates, it's because I lived it. If it's well-structured, AI helped me say it better.
+
 If you **came this far in understanding me**, then **you get to see the actual operating system:** decompose to first principles, model the system, derive testable predictions, validate against evidence, revise publicly when wrong, reject internal inconsistency on sight. This is how I do architecture. It's also how I do everything else.
 
 

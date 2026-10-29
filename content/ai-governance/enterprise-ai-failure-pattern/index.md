@@ -53,6 +53,8 @@ firstPublished: "2026-07-10"
 originalPublication: "https://druhindhavala.substack.com/p/next-biggest-opportunity-isnt-ai"
 ---
 
+> **First Mover Record**: Published August 2026 — before CFOs started asking why the AI line item wasn't shrinking. Before the Year 4 ROI flattening became visible in quarterly earnings calls. Before the budget corrections began.
+
 Next biggest opportunity isn’t AI
 It’s surviving the tech‑debt bomb AI is about to create.
 

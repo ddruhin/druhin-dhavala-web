@@ -52,6 +52,8 @@ firstPublished: "2026-08-01"
 originalPublication: "https://druhindhavala.substack.com/p/the-post-peak-ai-problem-nobody-is"
 ---
 
+> **First Mover Record**: Published August 2026 — before CFOs started asking why the AI line item wasn't shrinking. Before the Year 4 ROI flattening became visible in quarterly earnings calls. Before the budget corrections began.
+
 The Post-Peak AI Problem Nobody Is Modeling Yet
 
 Most companies are currently measuring AI success by the size of the first-year or second-year gains. That metric will quietly become misleading by year 4–5.

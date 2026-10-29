@@ -16,6 +16,9 @@ firstPublished: "2026-09-25"
 originalPublication: "https://www.druhindhavala.com/perspective/ai-coding-skill-atrophy"
 ---
 
+> **First Mover Record**: Published September 2026 — before the Anthropic study confirmed a 17-point comprehension drop in AI-assisted developers. Before enterprises realized their codebase was growing faster than their engineers' ability to understand it.
+
+
 **We Already Left the Road**
 
 *AI writes better code, faster. What it's quietly taking with it is the debugging sessions, wrong turns, and war-room scars that used to turn people into engineers.*

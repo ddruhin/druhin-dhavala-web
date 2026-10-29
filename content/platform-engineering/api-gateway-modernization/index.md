@@ -18,6 +18,8 @@ firstPublished: "2026-03-27"
 originalPublication: "https://druhindhavala.substack.com/p/from-on-prem-greenfields-enterprise"
 ---
 
+> **First Mover Record**: Published March 2026 — before enterprises realized that direct user-to-model access creates irreversible technical debt. Before "AI Gateway" entered vendor pitch decks. Before the retrofit invoices started arriving.
+
 ## Series Context
 
 This article is part of a series on governance architecture:
