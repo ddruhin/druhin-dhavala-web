@@ -21,6 +21,21 @@ firstPublished: "2026-04-22"
 originalPublication: "https://druhindhavala.substack.com/p/ai-hallucinations"
 ---
 
+> **TL;DR**: AI hallucinations are data architecture failures, not model failures. When conflicting source records enter a vector index without upstream reconciliation, the RAG pipeline embeds all versions and outputs garbage. Vector indexes must be treated as derived views — not sources of truth. Data reconciliation must be enforced upstream from the embedding loop via data contracts and CDC-based freshness.
+
+
+## RAG Failure Modes — Reference Table
+
+| Failure Mode | Root Cause | Symptom | Fix |
+|-------------|-----------|---------|-----|
+| **Conflicting embeddings** | Multiple versions of same entity (CRM vs. billing vs. data lake) fed into vector index without reconciliation | AI cites wrong/outdated record; hallucinates composite entity | Upstream data reconciliation before embedding |
+| **Stale embeddings** | Vector index not refreshed when source data changes | AI returns answers based on deleted/updated records | CDC-triggered re-embedding pipeline |
+| **Missing lineage** | No traceability from AI output back to source record | Cannot audit why AI gave that answer | Immutable lineage metadata on every embedding |
+| **Schema fragmentation** | Different systems use different field names/structures for same concept | Embeddings don't cluster correctly; retrieval misses relevant records | Data contracts at domain boundaries |
+| **Garbage semantics** | Uncurated, unlabeled, low-quality text fed into index | AI outputs plausible-sounding nonsense | Quality gates before ingestion |
+
+**Core principle**: Vector indexes are derived views. Treat them like materialized views in a database — they must be rebuilt when source data changes.
+
 AI Hallucinations
 
 Most enterprise “hallucination” issues I’m diagnosing aren’t model problems.

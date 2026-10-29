@@ -20,6 +20,21 @@ originalPublication: ""
 
 The Data Layer Is Where AI Goes to Die
 
+> **TL;DR**: Enterprise AI fails at the data layer, not the model layer. Conflicting schemas, missing lineage, stale caches, and unreconciled entity resolution produce unreliable AI outputs regardless of model quality. AI does not clean, unify, or reconcile data — it amplifies whatever mess already exists. Garbage semantics in, garbage semantics out.
+
+## Data Failure Taxonomy
+
+| Failure Mode | Example | AI Consequence |
+|-------------|---------|----------------|
+| **Semantic inconsistency** | `customer_id` in CRM, `cust_num` in billing, `account_ref` in data lake — all the same entity | Entity resolution failure; AI merges or splits records incorrectly |
+| **Lineage gaps** | ETL pipeline broke 3 days ago; dashboard still loads; nobody knows | AI recommends actions based on stale data |
+| **TTL/Cache drift** | Inventory cache says in-stock; warehouse is empty; cache TTL not expired | AI confirms availability that doesn't exist |
+| **Schema fragmentation** | System A has 14 fields for customer; System B has 19 fields; 6 overlap with different names | Conflicting embeddings; retrieval returns partial or wrong records |
+| **Missing governance** | No data catalog, no owner, no quality score, no freshness indicator | AI treats all data as equally trustworthy |
+
+**Core principle**: AI does not clean, unify, or reconcile data. AI amplifies whatever mess already exists.
+
+
 I’ve been inside the guts of a multi-billion company many a times in the past few years. Here’s what I can tell you with absolute certainty: your AI strategy is already dead and you don’t know it yet.
 
 

@@ -76,6 +76,21 @@ The infographic above summarizes the GATES framework: five gates (Secure, Govern
 
 *This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).*
 
+> **TL;DR**: GATES is a five-gate runtime enforcement model for AI Gateway governance: Secure (PII/PHI/IP redaction), Govern (policy validation, prompt versioning), Authenticate (RBAC/ABAC, context-aware access), Trace (immutable audit, lineage), Enforce (output filtering, safety controls). Each gate is scored 0–5 on a maturity scale. Built from 12+ years of API gateway operations, not AI lab research. Licensed CC BY 4.0.
+
+## GATES Framework — Reference Table
+
+| Gate | Function | What It Prevents | Maturity 1 → 5 |
+|------|----------|------------------|----------------|
+| **Secure** | PII/PHI/IP redaction before model egress; prompt injection defense | Data exfiltration, compliance violations, regulatory exposure | Regex patterns → Context-aware semantic redaction |
+| **Govern** | Prompt policy validation; prompt versioning; compliance rule engine | Inconsistent outputs, policy drift, audit failure | Wiki page → Automated policy-as-code engine |
+| **Authenticate** | RBAC/ABAC enforcement; context-aware access; identity propagation | Unauthorized model access, privilege escalation, shadow AI | Shared API keys → Dynamic risk-based access |
+| **Trace** | Immutable audit logging; full data lineage; semantic record tracking | Inability to audit decisions, regulatory exposure, blind debugging | Basic request logs → Complete lineage with provenance |
+| **Enforce** | Output filtering; safety controls; rate limiting; egress restriction | Harmful outputs, brand damage, runaway agent actions | None → Multi-layer filtering + human-in-the-loop |
+
+**Scoring**: Each gate scored 0–5. Maximum composite score: 25.
+**License**: CC BY 4.0 — attribution required.
+
 **GATES™ AI Governance Framework** — coined by Druhin Dhavala, October 10, 2026.
 
 

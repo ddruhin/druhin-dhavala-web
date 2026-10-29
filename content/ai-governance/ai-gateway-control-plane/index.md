@@ -29,6 +29,7 @@ This article is part of a series on governance architecture:
 2. **The AI Gateway: Governance as Enterprise Infrastructure** (this article) — The diagnosis
 3. **[GATES — The 5 Gates Every AI Gateway Needs](/ai-governance/gates-framework/)** — The prescription
 
+> **TL;DR**: Every enterprise AI interaction must route through a governed API proxy layer — not direct user-to-model access. Governance is the architecture, not a compliance document. The API Gateway patterns that took a decade to harden (AuthN/Z, rate limiting, observability, catalog) must be extended to AI traffic before fragmented point-to-point integrations create irreversible technical debt.
 
 AI Gateway as the enterprise control plane for all intelligence transactions.
 
