@@ -8,7 +8,7 @@ copyright = "© 2026 [Druhin Dhavala — Enterprise AI Governance & Platform Arc
 # ── FIX: Enable Hugo-managed robots.txt ───────────────
 # Was: false. Now true so Hugo generates it from layouts/robots.txt template.
 # If you prefer manual static/robots.txt, keep false and ignore this.
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # ── FIX: Git-based lastmod for sitemap ────────────────
 # Without this, Hugo uses file mtime or falls back to build date.
