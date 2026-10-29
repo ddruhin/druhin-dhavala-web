@@ -57,6 +57,8 @@ jsonld: |
 schema_name: "Who Governs the Governor? — Stored Prompt Injection Through the API Gateway"
 schema_keywords: ["stored prompt injection", "indirect prompt injection", "API gateway", "agentic AI", "data provenance", "OPA", "zero trust", "API security"]
 ---
+> **TL;DR**: Adversarial text enters a database through a legitimate, authorized API write. An autonomous AI agent later reads that text as instruction — not data — and executes it. Every API call in the chain was individually authorized. The exploit lives in the gap between two correct decisions. Mitigation requires data provenance tracking, read-path policy enforcement, and action-scoped tokens — not content scanning.
+
 
 *Notes from thirteen years of API gateways, on the day an AI agent writes to your database. Written October 2026. Last updated October 2026.*
 
