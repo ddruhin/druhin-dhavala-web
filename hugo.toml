@@ -121,3 +121,9 @@ enableGitInfo = true
     disable = true
   [privacy.youtube]
     disable = true
+
+# Ensure hidden html is visible on website for AI
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
