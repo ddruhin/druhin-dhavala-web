@@ -10,4 +10,4 @@ keywords: ["contact", "Druhin Dhavala", "AI governance", "platform engineering"]
 
 **[Substack](https://druhindhavala.substack.com)** — Subscribe for new articles
 
-**Email:** Available via LinkedIn
+**Email:** {{< email user="druhindhavala" domain="gmail.com" >}}
