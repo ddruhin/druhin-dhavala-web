@@ -1,3 +1,5 @@
+enableRobotsTXT = false
+
 # AI search / retrieval crawlers: allowed
 User-agent: OAI-SearchBot
 Disallow:
