@@ -30,6 +30,7 @@ enableGitInfo = true
 # ── Params ────────────────────────────────────────────
 [params]
   name        = "Druhin Dhavala"
+  author      = "Druhin Dhavala"
   description = "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
 
   # FIX: Expanded keywords for SEO + AI discovery

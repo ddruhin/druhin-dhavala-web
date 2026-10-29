@@ -1,62 +1,54 @@
 {{- /* Head custom content area start */ -}}
-{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
-{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
 
-{{ if .IsPage }}
+{{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Druhin Dhavala",
-  "url": "{{ site.BaseURL }}",
-  "sameAs": [
-    "https://www.linkedin.com/in/druhin-dhavala",
-    "https://github.com/ddruhin"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.druhindhavala.com/#person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/",
+      "jobTitle": "Enterprise AI Governance & Platform Architect",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ],
+      "worksFor": {
+        "@id": "https://www.druhindhavala.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.druhindhavala.com/#organization",
+      "name": "Druhin Dhavala — Enterprise AI Governance & Platform Architecture",
+      "url": "https://www.druhindhavala.com/",
+      "description": "Frameworks for enterprise AI governance, platform architecture, and the real cost of getting either wrong. Built on scars from a decade of API platform engineering."
+    }
   ]
 }
 </script>
 {{ end }}
 
-{{ if .IsHome }}
+{{ if and .IsPage (not .Params.jsonld) }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Druhin Dhavala",
   "url": "https://www.druhindhavala.com/",
-  "jobTitle": "Enterprise AI Governance & Platform Architecture",
   "sameAs": [
-    "https://www.linkedin.com/in/druhin-dhavala",
+    "https://www.linkedin.com/in/druhin-dhavala/",
     "https://github.com/ddruhin"
   ]
 }
 </script>
 {{ end }}
 
-{{ if .Params.schema_name }}
+{{ if .Params.jsonld }}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": "{{ .Params.schema_name }}",
-  "alternateName": "{{ .Params.schema_alternate }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ .Params.author | default .Site.Author.name }}",
-    "url": "https://www.druhindhavala.com",
-    "sameAs": [
-      "https://www.linkedin.com/in/druhin-dhavala/",
-      "https://github.com/ddruhin"
-    ]
-  },
-  "dateCreated": "{{ .Date.Format "2006-01-02" }}",
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "url": "{{ .Permalink }}",
-  "description": "{{ .Description }}",
-  "keywords": "{{ delimit .Params.schema_keywords ", " }}",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "isBasedOn": "12+ years of enterprise API platform experience"
-}
+{{ .Params.jsonld | safeJS }}
 </script>
 {{ end }}
