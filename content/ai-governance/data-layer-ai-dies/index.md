@@ -13,6 +13,37 @@ frameworks: ["RAG Data Integrity Model"]
 
 images: []
 
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/the-data-layer-is-where-ai-goes-to-die/#article",
+    "headline": "The Data Layer Is Where AI Goes to Die",
+    "name": "The Data Layer Is Where AI Goes to Die",
+    "description": "Enterprise AI fails at the data layer, not the model layer. Conflicting schemas, missing lineage, stale caches, and unreconciled entity resolution produce unreliable AI outputs regardless of model quality. AI amplifies existing data mess; it does not clean it.",
+    "keywords": ["data architecture", "AI data quality", "data lineage", "entity resolution", "AI hallucinations", "data governance"],
+    "url": "https://www.druhindhavala.com/ai-governance/the-data-layer-is-where-ai-goes-to-die/",
+    "datePublished": "2026-09-08",
+    "dateModified": "2026-09-09",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "author": {
+      "@type": "Person",
+      "name": "Druhin Dhavala",
+      "url": "https://www.druhindhavala.com/about/",
+      "sameAs": [
+        "https://www.linkedin.com/in/druhin-dhavala/",
+        "https://github.com/ddruhin"
+      ]
+    },
+    "about": [
+      {"@type": "Thing", "name": "Data Architecture"},
+      {"@type": "Thing", "name": "AI Data Quality"},
+      {"@type": "Thing", "name": "Data Governance"},
+      {"@type": "Thing", "name": "Entity Resolution"}
+    ],
+    "proficiencyLevel": "Expert"
+  }
+
 author: "Druhin Dhavala"
 firstPublished: "2026-09-09"
 originalPublication: ""

@@ -34,24 +34,34 @@ twitter_description: "Thirteen years of API gateway scars, one question: when an
 jsonld: |
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "TechArticle",
+    "@id": "https://www.druhindhavala.com/ai-governance/stored-prompt-injection-api-gateway/#article",
+    "headline": "Stored Prompt Injection Through the API Gateway",
     "name": "Who Governs the Governor? — Stored Prompt Injection Through the API Gateway",
+    "description": "Attack vector where adversarial text enters a database via legitimate API write, then gets read by an autonomous AI agent that treats it as instruction. The exploit lives in the gap between two individually correct authorization decisions.",
+    "keywords": ["stored prompt injection", "indirect prompt injection", "API gateway", "API security", "agentic AI", "data provenance", "zero trust", "OPA"],
+    "url": "https://www.druhindhavala.com/ai-governance/stored-prompt-injection-api-gateway/",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
     "author": {
       "@type": "Person",
       "name": "Druhin Dhavala",
-      "url": "https://www.druhindhavala.com",
+      "url": "https://www.druhindhavala.com/about/",
       "sameAs": [
         "https://www.linkedin.com/in/druhin-dhavala/",
         "https://github.com/ddruhin"
       ]
     },
-    "dateCreated": "2026-10-26",
-    "datePublished": "2026-10-26",
-    "dateModified": "2026-10-26",
-    "url": "https://www.druhindhavala.com/ai-governance/stored-prompt-injection-api-gateway/",
-    "description": "Thirteen years of API gateway experience applied to a new problem: when AI agents write to and read from databases through legitimate API calls, the attack surface lives in the gap between two correct authorization decisions. A cautionary essay on stored prompt injection, data provenance, and why a second LLM isn't the answer.",
-    "keywords": "stored prompt injection, indirect prompt injection, API gateway, agentic AI, data provenance, OPA, zero trust, API security"
+    "about": [
+      {"@type": "Thing", "name": "Prompt Injection"},
+      {"@type": "Thing", "name": "API Security"},
+      {"@type": "Thing", "name": "AI Agents"},
+      {"@type": "Thing", "name": "Data Provenance"}
+    ],
+    "proficiencyLevel": "Expert"
   }
+
 
 # Custom Parameters
 schema_name: "Who Governs the Governor? — Stored Prompt Injection Through the API Gateway"
