@@ -1,6 +1,7 @@
 # Druhin Dhavala — Enterprise AI Governance & Platform Architecture
 
 > Machine-readable index for LLM, RAG, and agentic ingestion. All URLs verified against live sitemap.
+> Full content: [llms-full.txt](https://www.druhindhavala.com/llms-full.txt)
 
 ## Author
 - **Druhin Dhavala**: Enterprise AI governance architect. 25 years. 1,200+ APIs governed. $57M recovered. Three greenfield platforms. Former WebSphere MQ on Tandem NSK developer.
