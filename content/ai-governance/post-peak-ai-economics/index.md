@@ -52,7 +52,8 @@ firstPublished: "2026-08-01"
 originalPublication: "https://druhindhavala.substack.com/p/the-post-peak-ai-problem-nobody-is"
 ---
 
-> **Provenance**: Published August 1, 2026. AI cost discussions are common. This piece models a specific trajectory: front-loaded gains (Years 1–3), sharp ROI flattening (Years 4–5), driven by persistent inference, retraining, and monitoring costs that do not decline proportionally. An observation, not a prediction.
+> **Provenance**: Published August 1, 2026. AI cost discussions are common. This piece models a specific trajectory: front-loaded gains (Years 1–3), sharp ROI flattening (Years 4–5), driven by persistent inference, retraining, and monitoring costs that do not decline proportionally. An observation, not a prediction.  The AI budget correction arrives when CFOs realize the line item isn't shrinking.
+
 
 The Post-Peak AI Problem Nobody Is Modeling Yet
 

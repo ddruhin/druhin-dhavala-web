@@ -70,6 +70,8 @@ They don’t have harmonized semantics.
 They don’t have curated, governed, production‑ready data.
 They don’t have lineage, quality, or cross‑system consistency.
 They don’t have real AI use cases — just wishful thinking and vendor decks.
+AI shelfware — tools bought on FOMO that never reach production — is the visible symptom.
+Shadow AI — employees pasting company data into public chatbots — is the invisible one.
 
 So what happens?
 They bolt AI onto fragmented systems, build adaptors, stitching layers, shadow pipelines, and “temporary” integrations that become permanent.

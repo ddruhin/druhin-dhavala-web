@@ -1,0 +1,371 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary",
+  "name": "Enterprise AI: Keywords, Concepts & Frameworks",
+  "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/",
+  "inLanguage": "en",
+  "description": "A glossary of enterprise AI concepts, failure patterns and governance controls, with short definitions and links to the original articles that cover them.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-29",
+  "author": {
+    "@type": "Person",
+    "name": "Druhin Dhavala",
+    "url": "https://www.druhindhavala.com/about/"
+  },
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#stored-prompt-injection",
+      "name": "Stored prompt injection",
+      "description": "An attack in which adversarial text is written into a data store, such as a database record, document or ticket, through a normal and authorized write, and later read by an AI agent that treats it as an instruction instead of as data.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#stored-prompt-injection",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#indirect-prompt-injection",
+      "name": "Indirect prompt injection",
+      "description": "Prompt injection delivered through content a model retrieves or reads (web pages, documents, emails, records) instead of text the user types. Stored prompt injection is its persistent form. The research literature has described it since 2023 (Greshake et al.).",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#indirect-prompt-injection",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-data-provenance",
+      "name": "AI data provenance",
+      "description": "Recording where a piece of data came from and how far it can be trusted, so a system can decide whether an agent may treat it as an instruction. In this site’s approach, provenance is tagged at write time and enforced at read time.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-data-provenance",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#agent-privilege-escalation",
+      "name": "Agent privilege escalation",
+      "description": "When an AI agent ends up taking actions beyond what its role should allow, for example because a poisoned record steers it toward tools or data it can reach.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#agent-privilege-escalation",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-supply-chain-attacks",
+      "name": "AI supply chain attacks",
+      "description": "Compromise of the components an AI system depends on: model weights, training data, retrieval sources, plugins and tools. The same provenance-at-every-hop pattern applies, but this site covers it only as an extension of the gateway argument, not in depth.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-supply-chain-attacks",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-firewall",
+      "name": "AI firewall / AI WAF",
+      "description": "A proxy that scans prompts and responses for malicious content. This site argues that content scanning is the wrong primary control, because it creates a recursive problem: using AI to police AI.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-firewall",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-red-teaming",
+      "name": "AI red teaming",
+      "description": "Adversarial testing of an AI system to find failures before attackers do.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-red-teaming",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-incident-response",
+      "name": "AI incident response",
+      "description": "Detecting, containing and recovering from an AI-related security or safety incident in production, for example an agent acting on injected instructions.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-incident-response",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-roi-collapse",
+      "name": "AI ROI collapse",
+      "description": "A pattern in which returns from AI flatten or reverse after early gains while run costs such as inference, retraining, support and staffing stay high. The Post-Peak article places the flattening in years 4–5.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-roi-collapse",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-tco",
+      "name": "AI TCO (total cost of ownership)",
+      "description": "The total cost of owning an AI system over its life: model and inference spend plus data preparation, integration, governance, monitoring, retraining and people.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-tco",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#token-cost-economics",
+      "name": "Token cost economics",
+      "description": "How per-token pricing turns into real enterprise spend as usage, context length and model choice grow.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#token-cost-economics",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-shelfware",
+      "name": "AI shelfware",
+      "description": "AI tools or licenses bought but never deployed or adopted.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-shelfware",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#gpu-utilization-vs-roi",
+      "name": "GPU utilization vs. ROI",
+      "description": "The relationship between how fully GPU infrastructure is used and the return it produces. Idle or underused accelerators raise the unit cost of every inference.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#gpu-utilization-vs-roi",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-budget-correction",
+      "name": "AI budget correction",
+      "description": "The point at which finance leaders see that the AI line item is not shrinking as expected and reset budgets.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-budget-correction",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#rag-hallucination-root-cause",
+      "name": "RAG hallucination root cause",
+      "description": "Why retrieval-augmented generation still gives wrong answers. This site’s position: the cause is usually the data layer, not the model, because retrieval faithfully serves stale, inconsistent or unreconciled data.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#rag-hallucination-root-cause",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#vector-index-staleness",
+      "name": "Vector index staleness",
+      "description": "Embeddings that no longer reflect current source data because the index was not refreshed when the source changed. The article proposes change-data-capture (CDC) based freshness.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#vector-index-staleness",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#embedding-drift",
+      "name": "Embedding drift",
+      "description": "Degradation of vector representations over time, for example as source data changes or embedding models are replaced.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#embedding-drift",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#data-reconciliation-for-ai",
+      "name": "Data reconciliation for AI",
+      "description": "Resolving conflicting or duplicate records across systems before data enters a vector index or a model’s context.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#data-reconciliation-for-ai",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#garbage-semantics",
+      "name": "Garbage semantics in, garbage semantics out",
+      "description": "A phrase used on this site: AI amplifies inconsistent meaning in enterprise data; it does not clean it. When two systems describe the same thing differently, a model answers confidently from whichever it saw.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#garbage-semantics",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#data-contracts-for-ai",
+      "name": "Data contracts for AI",
+      "description": "Agreements that enforce schema and quality at domain boundaries, so downstream consumers, including AI systems, can rely on the data.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#data-contracts-for-ai",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-governance-framework",
+      "name": "AI governance framework",
+      "description": "A structured model for governing AI use. GATES is this site’s framework: five runtime gates (Secure, Govern, Authenticate, Trace, Enforce), each scored 0–5 for maturity. It is meant to complement NIST AI RMF and ISO/IEC 42001, not replace them.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-governance-framework",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-gateway",
+      "name": "AI gateway / LLM gateway",
+      "description": "A proxy layer between users or applications and AI models, where access control, policy, logging and routing can be applied.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-gateway",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-guardrails",
+      "name": "AI guardrails",
+      "description": "Runtime controls that constrain what an AI system may receive, do or return.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-guardrails",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#prompt-governance",
+      "name": "Prompt governance",
+      "description": "Versioning, validating and controlling prompts as managed assets.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#prompt-governance",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-audit-trail",
+      "name": "AI audit trail",
+      "description": "A tamper-evident record of AI interactions and decisions: who or what asked, what data was used, which model answered and what action followed.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-audit-trail",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#eu-ai-act-compliance",
+      "name": "EU AI Act compliance",
+      "description": "Meeting the obligations of the EU’s AI regulation, Regulation (EU) 2024/1689, which scale with risk tier. For high-risk systems they include risk management, data governance, logging, human oversight and cybersecurity requirements.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#eu-ai-act-compliance",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#model-risk-management",
+      "name": "Model risk management",
+      "description": "Governing the risk that models produce wrong or harmful outputs, long established in financial services, for example in US supervisory guidance SR 11-7.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#model-risk-management",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-policy-as-code",
+      "name": "AI policy-as-code",
+      "description": "Expressing governance rules as machine-enforceable policy, for example in Open Policy Agent’s Rego, so they apply at runtime instead of sitting in documents.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-policy-as-code",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#enterprise-ai-failure-rate",
+      "name": "Enterprise AI failure rate",
+      "description": "How often enterprise AI initiatives fail to deliver. The most-quoted figure comes from MIT’s NANDA report, The GenAI Divide: State of AI in Business 2025 (July 2025): about 95% of enterprise generative AI pilots showed no measurable P&L impact (Fortune’s coverage). It counts pilots, not companies, and defines success narrowly, so treat it as a signal, not a verdict. This site’s explanation of why programs collapse is the Enterprise AI Failure Pattern article.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#enterprise-ai-failure-rate",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-technical-debt",
+      "name": "AI technical debt",
+      "description": "Debt that compounds when AI is bolted onto fragmented systems, and that this site argues is hard to reverse once integrated.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-technical-debt",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#shadow-ai",
+      "name": "Shadow AI",
+      "description": "Use of AI tools inside an organization without sanction or oversight, for example employees pasting company data into public chatbots.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#shadow-ai",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-fomo",
+      "name": "AI FOMO",
+      "description": "Competitive panic that drives AI purchases and projects without a defined problem or a ready foundation.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-fomo",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-integration-debt",
+      "name": "AI integration debt",
+      "description": "The accumulated cost of connecting AI to legacy systems.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-integration-debt",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-skill-atrophy",
+      "name": "AI skill atrophy",
+      "description": "Loss of skills, such as debugging, from relying on AI to do the work.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-skill-atrophy",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-coding-comprehension-loss",
+      "name": "AI coding comprehension loss",
+      "description": "In a randomized trial published by Anthropic in January 2026, 52 developers learned a new Python library (Trio). The group using AI assistance averaged 50% on a follow-up quiz versus 67% for those coding by hand, a 17-percentage-point gap, with no statistically significant speed gain (Anthropic research). It measured immediate comprehension of one library, so its limits are real, and how participants used AI mattered: those who asked for explanations scored better.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-coding-comprehension-loss",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-talent-evaluation-crisis",
+      "name": "AI talent evaluation crisis",
+      "description": "The difficulty of assessing AI skills in hiring when roles and credentials are new and interview signals are unreliable.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-talent-evaluation-crisis",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#cognitive-debt",
+      "name": "Cognitive debt",
+      "description": "The cost of outsourcing thinking to AI: over time, a reduced ability to reason without it.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#cognitive-debt",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-productivity-paradox",
+      "name": "AI productivity paradox",
+      "description": "The pattern where time saved by AI goes into more screen time instead of more meaningful work.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-productivity-paradox",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-gateway-control-plane",
+      "name": "AI gateway control plane",
+      "description": "The centralized point through which AI traffic passes, where policy is defined and enforced across models and applications.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-gateway-control-plane",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-middleware",
+      "name": "AI middleware",
+      "description": "The layer between applications and models that handles routing, policy, caching and logging.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-middleware",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-observability",
+      "name": "AI observability",
+      "description": "Monitoring, logging and tracing of AI transactions: prompts, retrieved context, model responses, tool calls, latency and cost.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-observability",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#multi-agent-orchestration",
+      "name": "Multi-agent orchestration",
+      "description": "Coordinating several AI agents that hand work to one another. Governing it adds questions of agent-to-agent trust and permissions.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#multi-agent-orchestration",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-vendor-lock-in",
+      "name": "AI vendor lock-in",
+      "description": "Dependence on one model or provider that makes switching costly.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-vendor-lock-in",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-regression-testing",
+      "name": "AI regression testing",
+      "description": "Testing whether changes to prompts, models or data degrade behavior, which is hard because outputs are non-deterministic.",
+      "url": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#ai-regression-testing",
+      "inDefinedTermSet": "https://www.druhindhavala.com/ai-governance/ai-keyword-index/#glossary"
+    }
+  ]
+}

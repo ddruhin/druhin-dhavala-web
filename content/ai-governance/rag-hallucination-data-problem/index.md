@@ -87,6 +87,7 @@ So when the LLM returns:
 - Outdated product specs
 - Conflicting customer insights
 - Or worse — PII leakage from stale snapshots
+Embedding drift — the gradual degradation of vector representations as source data changes — makes retrieval silently worse over time.
 
 That’s not hallucination.
 That’s your architecture talking.

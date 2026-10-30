@@ -51,4 +51,7 @@
 <script type="application/ld+json">
 {{ .Params.jsonld | safeJS }}
 </script>
+{{ if eq .RelPermalink "/ai-governance/ai-keyword-index/" }}
+<script type="application/ld+json">{{ (resources.Get "jsonld/ai-keyword-index.json").Content | safeJS }}</script>
+{{ end }}
 {{ end }}

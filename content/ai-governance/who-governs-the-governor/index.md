@@ -119,7 +119,8 @@ Every single call was authorized. There’s no failed login to alert on, no sche
 
 ## The part that bothers me most
 
-The obvious fix is to put something in the gateway that reads the text and decides if it’s malicious. And since deterministic code like Rego can’t judge a paragraph, people reach for a second, smaller LLM to do the judging.
+The obvious fix is to put something in the gateway that reads the text and decides if it’s malicious. And since deterministic code like Rego can’t judge a paragraph, people reach for a second, smaller LLM to do the judging. The industry will call this an AI firewall or AI WAF. It's the wrong answer — you haven't added a governor, you've added a second worker with a badge.
+
 
 That’s the loop. You’re using an AI to police an AI, and the input you’re policing is adversarial text written specifically to manipulate models. If a payload can talk the worker model into something, I see no reason to assume it can’t talk the guard model into it too. I haven’t tested that. It’s an inference, not a measurement. You haven’t added a governor. You’ve added a second worker with a badge.
 
